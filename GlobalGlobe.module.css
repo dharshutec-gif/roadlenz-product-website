@@ -1,0 +1,610 @@
+.globalWrap {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(390px, .92fr);
+  gap: clamp(28px, 4vw, 58px);
+  align-items: center;
+  min-height: 640px;
+  padding: clamp(24px, 3.2vw, 46px);
+  border: 1px solid rgba(27, 135, 220, .16);
+  border-radius: 32px;
+  background:
+    radial-gradient(circle at 22% 38%, rgba(15, 145, 235, .11), transparent 30%),
+    radial-gradient(circle at 90% 0%, rgba(89, 198, 255, .10), transparent 27%),
+    linear-gradient(145deg, #f9fcff 0%, #f1f9ff 48%, #ffffff 100%);
+  box-shadow: 0 22px 58px rgba(32, 93, 143, .08);
+  overflow: hidden;
+}
+
+.globeColumn,
+.detailColumn {
+  min-width: 0;
+}
+
+.globeStage {
+  position: relative;
+  width: min(100%, 610px);
+  aspect-ratio: 1;
+  margin: 0 auto;
+  cursor: grab;
+  user-select: none;
+  touch-action: none;
+}
+
+.dragging {
+  cursor: grabbing;
+}
+
+.globeSphere {
+  position: absolute;
+  inset: 7%;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #0a568c;
+  box-shadow:
+    0 36px 80px rgba(13, 91, 153, .22),
+    0 0 0 1px rgba(55, 166, 237, .25),
+    inset -54px -30px 84px rgba(2, 25, 48, .35),
+    inset 34px 20px 68px rgba(134, 220, 255, .22);
+}
+
+.mapViewport {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.mapTrack {
+  --track-shift: 0%;
+  --map-scale: 2.2;
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: calc(var(--map-scale) * 200%);
+  display: flex;
+  transform: translateX(calc(var(--track-shift) * -1));
+  will-change: transform;
+}
+
+.mapPage {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  flex: 0 0 50%;
+}
+
+.worldMap {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  user-select: none;
+  pointer-events: none;
+  filter: saturate(1.06) contrast(1.03) brightness(1.04);
+}
+
+.globeGrid {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: .32;
+  mix-blend-mode: screen;
+  background:
+    repeating-radial-gradient(
+      ellipse at center,
+      transparent 0 42px,
+      rgba(255, 255, 255, .11) 43px 44px,
+      transparent 45px 84px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 61px,
+      rgba(255, 255, 255, .07) 62px,
+      transparent 63px 124px
+    );
+}
+
+.globeHighlight {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 32% 25%, rgba(255, 255, 255, .36), transparent 25%),
+    radial-gradient(circle at 55% 47%, transparent 32%, rgba(0, 41, 79, .08) 58%, rgba(0, 25, 48, .25) 100%);
+}
+
+.globeShade {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(1, 26, 51, .38), transparent 25%, transparent 70%, rgba(2, 24, 46, .42)),
+    linear-gradient(180deg, rgba(255, 255, 255, .10), transparent 48%, rgba(0, 29, 57, .18));
+}
+
+.globeEdge {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  border: 1px solid rgba(111, 211, 255, .38);
+  box-shadow:
+    inset 0 0 42px rgba(65, 188, 247, .18),
+    0 0 36px rgba(47, 182, 244, .22);
+}
+
+.orbitRingOne,
+.orbitRingTwo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  height: 33%;
+  border: 1px solid rgba(20, 157, 235, .22);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.orbitRingOne {
+  transform: translate(-50%, -50%) rotate(10deg);
+}
+
+.orbitRingTwo {
+  width: 94%;
+  height: 27%;
+  transform: translate(-50%, -50%) rotate(-21deg);
+  border-style: dashed;
+  opacity: .58;
+}
+
+.geoPin {
+  --pin-color: #087eea;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.pinMarker {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 31px;
+  height: 31px;
+  display: grid;
+  place-items: center;
+  transform: translate(-50%, -85%);
+  border-radius: 50% 50% 50% 8px;
+  background: linear-gradient(145deg, #0d8df4, #076ed2);
+  color: #fff;
+  border: 2px solid #fff;
+  box-shadow:
+    0 9px 18px rgba(3, 91, 166, .30),
+    0 0 0 4px rgba(24, 153, 238, .14);
+  rotate: -45deg;
+  transition: transform .22s ease, box-shadow .22s ease;
+}
+
+.pinMarker svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  stroke: none;
+  rotate: 45deg;
+}
+
+.geoPin:hover .pinMarker,
+.geoPinSelected .pinMarker {
+  transform: translate(-50%, -85%) scale(1.12);
+  box-shadow:
+    0 12px 22px rgba(3, 91, 166, .36),
+    0 0 0 6px rgba(24, 153, 238, .17);
+}
+
+.pinPulse {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+  transform: translate(-50%, -50%);
+  border: 1.5px solid var(--pin-color);
+  border-radius: 50%;
+  animation: pinPulse 2.25s ease-out infinite;
+}
+
+@keyframes pinPulse {
+  0% {
+    scale: .35;
+    opacity: .75;
+  }
+  100% {
+    scale: 1.7;
+    opacity: 0;
+  }
+}
+
+.pinLabel {
+  position: absolute;
+  left: 22px;
+  top: -30px;
+  min-width: 120px;
+  padding: 8px 11px;
+  border: 1px solid rgba(30, 137, 219, .18);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, .96);
+  box-shadow: 0 10px 28px rgba(10, 77, 131, .14);
+  text-align: left;
+  pointer-events: none;
+  backdrop-filter: blur(10px);
+}
+
+.pinLabel strong,
+.pinLabel small {
+  display: block;
+  white-space: nowrap;
+}
+
+.pinLabel strong {
+  color: #0b315b;
+  font-size: 11px;
+  line-height: 1.2;
+}
+
+.pinLabel small {
+  margin-top: 3px;
+  color: #6e89a2;
+  font-size: 8px;
+  line-height: 1.2;
+}
+
+
+.globeHelp {
+  max-width: 540px;
+  margin: 12px auto 0;
+  text-align: center;
+  color: #8297a9;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.premiumCard {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(24px, 2.6vw, 34px);
+  border: 1px solid #d9e8f3;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, .96);
+  box-shadow: 0 26px 64px rgba(29, 78, 116, .12);
+  backdrop-filter: blur(16px);
+}
+
+.cardAccent {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #0b77e8, #08b7ee);
+}
+
+.cardGlow {
+  position: absolute;
+  right: -80px;
+  top: -110px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: rgba(29, 163, 242, .10);
+  filter: blur(30px);
+  pointer-events: none;
+}
+
+.cardHeader {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 14px;
+}
+
+.headerPin {
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  border-radius: 18px;
+  background: #eef8ff;
+  color: #0a8df3;
+}
+
+.headerPin svg {
+  width: 26px;
+  height: 26px;
+  fill: currentColor;
+}
+
+.headerCopy small,
+.detailRow small {
+  display: block;
+  margin-bottom: 5px;
+  color: #8aa0b3;
+  font-size: 8px;
+  font-weight: 850;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.headerCopy h3 {
+  margin: 0;
+  color: #092f59;
+  font-size: clamp(23px, 2vw, 31px);
+  line-height: 1.12;
+  letter-spacing: -.03em;
+}
+
+.headerCopy p {
+  margin: 6px 0 0;
+  color: #70879d;
+  font-size: 12px;
+}
+
+.locationBadge {
+  min-width: 88px;
+  padding: 9px 10px;
+  border: 1px solid #e0edf6;
+  border-radius: 14px;
+  background: #f7fbfe;
+  text-align: center;
+}
+
+.locationBadge span {
+  color: #4e708d;
+  font-size: 8px;
+  line-height: 1.45;
+  font-weight: 750;
+}
+
+.detailDivider {
+  height: 1px;
+  margin: 24px 0 20px;
+  background: #e3edf4;
+}
+
+.detailRows {
+  display: grid;
+  gap: 15px;
+}
+
+.detailRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  color: #0b315b;
+  text-decoration: none;
+}
+
+.detailIcon {
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 13px;
+  background: #eef8ff;
+  color: #0a8df3;
+}
+
+.detailIcon svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.addressLines p {
+  margin: 0;
+  color: #4f6d86;
+  font-size: 11.5px;
+  line-height: 1.55;
+}
+
+.detailRow strong {
+  display: block;
+  color: #345d7d;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.mapsButton {
+  min-height: 52px;
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #0879e8, #08aceb);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 820;
+  text-decoration: none;
+  box-shadow: 0 14px 30px rgba(8, 128, 220, .22);
+  transition: transform .22s ease, box-shadow .22s ease;
+}
+
+.mapsButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 34px rgba(8, 128, 220, .28);
+}
+
+.mapsButton svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  stroke: none;
+}
+
+.mapsButton svg:last-child {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.otherLocationsTitle {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 9px;
+  margin-top: 26px;
+  color: #8599aa;
+  font-size: 8px;
+  font-weight: 850;
+  letter-spacing: .13em;
+}
+
+.otherLocationsTitle > span {
+  height: 1px;
+  background: #e2ecf4;
+}
+
+.otherLocations {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.otherLocations button {
+  min-width: 0;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 9px 10px;
+  border: 1px solid #e0ebf3;
+  border-radius: 13px;
+  background: #fff;
+  cursor: pointer;
+  transition: transform .2s ease, background .2s ease, border-color .2s ease;
+}
+
+.otherLocations button:hover {
+  transform: translateY(-2px);
+  background: #f5fbff;
+  border-color: #b8dcf2;
+}
+
+.miniPin {
+  width: 31px;
+  height: 31px;
+  flex: 0 0 31px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: #eef8ff;
+  color: #0a8df3;
+}
+
+.miniPin svg {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+}
+
+.otherLocations button > span:last-child {
+  min-width: 0;
+  display: grid;
+  text-align: left;
+}
+
+.otherLocations strong {
+  overflow: hidden;
+  color: #173d64;
+  font-size: 9px;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.otherLocations small {
+  margin-top: 3px;
+  color: #8499aa;
+  font-size: 7.5px;
+}
+
+@media (max-width: 1020px) {
+  .globalWrap {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .globeStage {
+    max-width: 560px;
+  }
+
+  .premiumCard {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 620px) {
+  .globalWrap {
+    padding: 16px;
+    border-radius: 24px;
+  }
+
+  .globeStage {
+    width: 100%;
+  }
+
+  .orbitRingOne,
+  .orbitRingTwo {
+    display: none;
+  }
+
+  .pinMarker {
+    width: 25px;
+    height: 25px;
+  }
+
+  .pinMarker svg {
+    width: 13px;
+    height: 13px;
+  }
+
+  .pinLabel {
+    display: none;
+  }
+
+  .premiumCard {
+    padding: 21px;
+    border-radius: 22px;
+  }
+
+  .cardHeader {
+    grid-template-columns: auto 1fr;
+  }
+
+  .locationBadge {
+    display: none;
+  }
+
+  .otherLocations {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "reduced": "no-preference",
+    "anchor": true,
+    "before": "none",
+    "hover": "matrix(1, 0, 0, 1, 0, -4)",
+    "animations": 4
+  },
+  {
+    "reduced": "reduce",
+    "anchor": true,
+    "before": "none",
+    "hover": "matrix(1, 0, 0, 1, 0, -4)",
+    "animations": 0
+  },
+  {
+    "slug": "fuel-monitoring",
+    "status": 200,
+    "heading": "Explore Fuel Monitoring"
+  },
+  {
+    "slug": "analytics",
+    "status": 200,
+    "heading": "Explore Analytics"
+  },
+  {
+    "slug": "recordings",
+    "status": 200,
+    "heading": "Explore Recordings"
+  }
+]

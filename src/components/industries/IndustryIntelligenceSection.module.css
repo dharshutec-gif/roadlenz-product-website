@@ -1,0 +1,101 @@
+.section { position: relative; isolation: isolate; overflow: hidden; color: #070f43; background: radial-gradient(ellipse at 100% 0, #e4f3ff 0, transparent 38%), radial-gradient(ellipse at 44% 75%, #edf8ff 0, transparent 48%), #fff; }
+.section::before { content: ""; position: absolute; inset: 0 25%; z-index: -1; opacity: .35; background-image: linear-gradient(#dcedfc 1px, transparent 1px), linear-gradient(90deg, #dcedfc 1px, transparent 1px); background-size: 88px 88px; mask-image: radial-gradient(ellipse, #000, transparent 72%); }
+.inner { width: min(1840px, calc(100% - 96px)); margin-inline: auto; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.7fr) minmax(0, 1.08fr); gap: 20px; align-items: center; padding: 48px 0; }
+.copy { position: relative; z-index: 2; }
+.copy .eyebrow { display: flex; align-items: center; gap: 16px; color: #0074ff; font-size: 11px; font-weight: 800; letter-spacing: .18em; line-height: 1.4; text-transform: uppercase; }
+.eyebrow::before { content: ""; flex: 0 0 30px; height: 2px; background: #1688ff; }
+.copy h2 { margin-top: 26px; font-family: var(--font-manrope), sans-serif; font-size: clamp(34px, 3.25vw, 64px); font-weight: 800; letter-spacing: -.06em; line-height: 1.1; }
+.copy .description { margin-top: 24px; color: #647da9; font-size: clamp(16px, 1.15vw, 22px); line-height: 1.5; }
+.button { display: inline-flex; align-items: center; justify-content: center; gap: 24px; min-height: 58px; margin-top: 32px; padding: 16px 24px; border-radius: 12px; background: linear-gradient(120deg, #2584ff, #006bff); color: #fff; box-shadow: 0 14px 30px #0086e92c; font-size: 15px; font-weight: 650; transition: transform 180ms ease, box-shadow 180ms ease; }
+.button:hover { transform: translateY(-3px); box-shadow: 0 18px 32px #0086e943; }
+.button:focus-visible, .card:focus-visible { outline: 3px solid #0075ff; outline-offset: 5px; }
+.outcomes { display: flex; align-items: center; gap: 20px; padding: 0; margin: 48px 0 0; list-style: none; color: #617ca8; font-size: 12px; line-height: 1.5; }
+.outcomes li + li { position: relative; padding-left: 20px; }
+.outcomes li + li::before { content: ""; position: absolute; left: 0; top: 20%; height: 60%; width: 1px; background: #c3dfff; }
+.visual { position: relative; min-width: 0; align-self: stretch; display: flex; flex-direction: column; justify-content: center; }
+.visual .visualCaption { position: relative; z-index: 1; text-align: center; color: #7badeb; font-size: 10px; letter-spacing: .35em; line-height: 1.5; text-transform: uppercase; }
+.visualCaption strong { color: #188bff; font-weight: 700; }
+.artwork { position: relative; }
+.stack { display: block; width: 112%; max-width: none; margin-left: -6%; aspect-ratio: 4 / 5; object-fit: contain; mix-blend-mode: multiply; transform-origin: 50% 65%; animation: stackFloat 6s ease-in-out infinite; }
+.orbit, .orbitSecondary { position: absolute; left: 4%; right: 4%; top: 40%; height: 22%; border: 1px solid #209cff30; border-radius: 50%; pointer-events: none; transform: rotate(-10deg); }
+.orbitSecondary { top: 69%; left: 0; right: 0; height: 18%; transform: rotate(8deg); }
+.orbit i, .orbitSecondary i { position: absolute; width: 9px; height: 9px; border-radius: 50%; background: #26b0ff; box-shadow: 0 0 18px #008aff; offset-path: ellipse(50% 50% at 50% 50%); animation: orbitTravel 8s linear infinite; }
+.orbitSecondary i { animation-duration: 11s; animation-direction: reverse; }
+.coreGlow { position: absolute; left: 33%; top: 41%; width: 34%; height: 20%; background: radial-gradient(ellipse, #47caff32, transparent 70%); pointer-events: none; animation: corePulse 4s ease-in-out infinite; }
+.dataBeam { position: absolute; top: 15%; bottom: 17%; left: 50%; width: 1px; background: linear-gradient(transparent, #5dccff70, transparent); pointer-events: none; }
+.dataBeam::after { content: ""; position: absolute; left: -2px; width: 5px; height: 22px; border-radius: 50%; background: linear-gradient(transparent, #fff, #41beff); box-shadow: 0 0 10px #41beff; animation: dataTravel 4s ease-in-out infinite; }
+.capabilityColumn { position: relative; z-index: 2; }
+.caption { color: #78a9e6; font-size: 8px; font-weight: 650; letter-spacing: .22em; line-height: 1.8; text-transform: uppercase; }
+.capabilities { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 32px; }
+.cardReveal { min-width: 0; }
+.card { position: relative; display: flex; flex-direction: column; align-items: flex-start; height: 100%; min-height: 160px; padding: 20px 18px; border: 1px solid #bbdaff; border-radius: 15px; background: linear-gradient(130deg, #ffffffeb, #f8fcffee); box-shadow: 0 8px 20px #0080dd0a; transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease; }
+.card:hover { transform: translateY(-4px); border-color: #68acff; box-shadow: 0 12px 24px #0080dd18; }
+.iconCircle { display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; margin-bottom: 13px; border-radius: 50%; background: #e4f2ff; color: #0077ff; }
+.iconCircle svg { width: 27px; height: 27px; stroke-width: 1.8; transition: transform 200ms ease; }
+.card:hover .iconCircle svg { transform: scale(1.1); }
+.card strong { font-size: clamp(13px, .95vw, 18px); line-height: 1.3; font-weight: 750; letter-spacing: -.04em; }
+.cardDescription { display: block; max-width: 170px; margin-top: 7px; padding-right: 18px; color: #647da9; font-size: 12px; line-height: 1.4; }
+.cardArrow { position: absolute; right: 15px; bottom: 24px; display: grid; place-items: center; width: 27px; height: 27px; border: 1px solid #d5e8ff; border-radius: 50%; color: #0073ff; }
+.cardArrow svg { width: 16px; height: 16px; }
+.bottomCaption { display: flex; justify-content: flex-end; align-items: center; gap: 12px; margin-top: 30px !important; }
+.bottomCaption span { width: 26px; height: 1px; background: #a2caff; }
+.section[data-in-view="true"] .copy { animation: entrance 700ms ease both; }
+.section[data-in-view="true"] .visual { animation: stackEntrance 1100ms cubic-bezier(.16, 1, .3, 1) both; }
+.section[data-in-view="true"] .cardReveal { animation: entrance 600ms ease both; }
+.section[data-in-view="false"] .stack, .section[data-in-view="false"] .orbit i, .section[data-in-view="false"] .orbitSecondary i, .section[data-in-view="false"] .coreGlow, .section[data-in-view="false"] .dataBeam::after { animation-play-state: paused; }
+@keyframes entrance { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes stackFloat { 0%, 100% { transform: translateY(5px) rotate(-.6deg); } 50% { transform: translateY(-15px) rotate(.6deg); } }
+@keyframes stackEntrance { from { opacity: 0; transform: translateY(35px) scale(.94); } to { opacity: 1; transform: translateY(0) scale(1); } }
+.scanLine { position: absolute; inset: 18% 8% 16%; overflow: hidden; pointer-events: none; border-radius: 20%; }
+.scanLine::after { content: ""; position: absolute; top: -8%; left: 0; right: 0; height: 28px; background: linear-gradient(transparent, #67d6ff25, #e6fbff90, transparent); filter: blur(1px); animation: scanTravel 5s ease-in-out infinite; }
+@keyframes scanTravel { 0% { transform: translateY(0); opacity: 0; } 15%, 75% { opacity: .75; } 100% { transform: translateY(520px); opacity: 0; } }
+.section[data-in-view="false"] .scanLine::after { animation-play-state: paused; }
+@keyframes orbitTravel { to { offset-distance: 100%; } }
+@keyframes corePulse { 0%, 100% { opacity: .4; transform: scale(.94); } 50% { opacity: 1; transform: scale(1.1); } }
+@keyframes dataTravel { 0% { top: 0; opacity: 0; } 20%, 75% { opacity: 1; } 100% { top: 95%; opacity: 0; } }
+@media (max-width: 1250px) {
+  .inner { width: calc(100% - 64px); grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 28px; }
+  .copy h2 { max-width: 440px; font-size: clamp(38px, 4.6vw, 54px); }
+  .visual { grid-column: 2; grid-row: 1; }
+  .stack { width: 100%; margin-left: 0; }
+  .capabilityColumn { grid-column: 1 / -1; }
+  .capabilities { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 18px; }
+  .card strong { font-size: 16px; }
+  .cardDescription { font-size: 14px; }
+}
+@media (max-width: 640px) {
+  .inner { width: calc(100% - 40px); grid-template-columns: minmax(0, 1fr); gap: 28px; padding: 48px 0; }
+  .copy h2 { max-width: 420px; font-size: 40px; }
+  .copy .eyebrow { font-size: 11px; gap: 12px; }
+  .copy .description { font-size: 17px; }
+  .button { min-height: 54px; margin-top: 24px; }
+  .outcomes { margin-top: 30px; gap: 16px; font-size: 11px; }
+  .outcomes li + li { padding-left: 16px; }
+  .visual { grid-column: 1; grid-row: auto; }
+  .stack { max-height: 500px; }
+  .capabilities { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .card { min-height: 185px; padding: 16px 13px 42px; }
+  .card strong { font-size: 14px; }
+  .cardDescription { padding-right: 0; font-size: 12px; }
+  .cardArrow { bottom: 12px; right: 12px; width: 24px; height: 24px; }
+  .caption { font-size: 7px; letter-spacing: .15em; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .section .copy, .section .visual, .section .cardReveal, .section .orbit i, .section .orbitSecondary i, .section .coreGlow, .section .dataBeam::after, .section .scanLine::after { animation: none !important; }
+  .section .scanLine { display: none; }
+  .button, .card, .iconCircle svg { transition: none; }
+  .button:hover, .card:hover, .card:hover .iconCircle svg { transform: none; }
+}
+
+.layeredStack { position: relative; width: 112%; margin-left: -6%; aspect-ratio: 4 / 5; mix-blend-mode: multiply; }
+.movingLayer { position: absolute; inset: 0; transform-origin: center; animation: layerExpand 3.8s ease-in-out infinite; }
+.movingLayer img { display: block; width: 100%; height: 100%; object-fit: fill; }
+@keyframes layerExpand { 0%, 100% { transform: translateY(12px) rotate(-1deg) scale(.98); } 50% { transform: translateY(-22px) rotate(1deg) scale(1.02); } }
+.section[data-in-view="false"] .movingLayer { animation-play-state: paused; }
+.section[data-motion="off"] *, .section[data-motion="off"] *::after { animation-play-state: paused !important; }
+.section[data-motion="off"] .movingLayer { animation: none; }
+
+
+@media (max-width: 1250px) { .layeredStack { width: 100%; margin-left: 0; } }
+@media (prefers-reduced-motion: reduce) { .section .movingLayer { animation: none !important; } }
+

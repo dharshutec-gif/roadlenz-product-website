@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "roadlenz-wifi-dashcam",
+    "width": 1366,
+    "sizes": [
+      "28.686px"
+    ],
+    "overflow": false
+  },
+  {
+    "slug": "roadlenz-wifi-dashcam",
+    "width": 390,
+    "sizes": [
+      "26px"
+    ],
+    "overflow": false
+  },
+  {
+    "slug": "3ch-ai-dashcam",
+    "width": 1366,
+    "sizes": [
+      "28.686px"
+    ],
+    "overflow": false
+  },
+  {
+    "slug": "3ch-ai-dashcam",
+    "width": 390,
+    "sizes": [
+      "26px"
+    ],
+    "overflow": false
+  },
+  {
+    "slug": "4ch-ai-dashcam",
+    "width": 1366,
+    "sizes": [
+      "28.686px"
+    ],
+    "overflow": false
+  },
+  {
+    "slug": "4ch-ai-dashcam",
+    "width": 390,
+    "sizes": [
+      "26px"
+    ],
+    "overflow": false
+  }
+]

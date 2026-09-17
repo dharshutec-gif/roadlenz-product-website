@@ -1,0 +1,315 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/industries/IndustriesExperience.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+/* Industries: complete scoped stylesheet. No globals.css patch is required. */
+.IndustriesExperience_page__sW8Uw {
+  --ink: #102d49;
+  --muted: #536c82;
+  --blue: #1768eb;
+  --teal: #078d99;
+  --line: #dce6ef;
+  --sans: var(--font-inter, Inter), Arial, sans-serif;
+  --display: var(--font-manrope, Manrope), Arial, sans-serif;
+  width: 100%; min-width: 0; isolation: isolate; overflow-x: clip;
+  padding-top: var(--site-header-height, 72px); color: var(--ink); background: #fff;
+  font: 400 15px/1.65 var(--sans); -webkit-font-smoothing: antialiased;
+}
+.IndustriesExperience_page__sW8Uw, .IndustriesExperience_page__sW8Uw *, .IndustriesExperience_page__sW8Uw *::before, .IndustriesExperience_page__sW8Uw *::after { box-sizing: border-box; }
+.IndustriesExperience_page__sW8Uw :where(h1,h2,h3,h4,p,figure) { margin: 0; }
+.IndustriesExperience_page__sW8Uw :where(button,a) { -webkit-tap-highlight-color: transparent; }
+.IndustriesExperience_page__sW8Uw :where(button) { font: inherit; cursor: pointer; }
+.IndustriesExperience_page__sW8Uw :where(a) { color: inherit; text-decoration: none; }
+.IndustriesExperience_page__sW8Uw :where(img) { display: block; }
+.IndustriesExperience_page__sW8Uw :where(svg) { display: block; width: 22px; height: 22px; flex: 0 0 auto; }
+.IndustriesExperience_page__sW8Uw :where(button,a):focus-visible { outline: 3px solid #40a4ff; outline-offset: 5px; }
+.IndustriesExperience_page__sW8Uw button:disabled { opacity: .4; cursor: default; }
+.IndustriesExperience_page__sW8Uw ::-moz-selection { background: #b8dbff; color: #112a4e; }
+.IndustriesExperience_page__sW8Uw ::selection { background: #b8dbff; color: #112a4e; }
+.IndustriesExperience_container__N_Gs0, .IndustriesExperience_heroGrid__EnWZ2, .IndustriesExperience_heroBottom__4AIPw { width: min(1220px, calc(100% - 96px)); margin-inline: auto; }
+.IndustriesExperience_eyebrow__XeSFe { font: 650 10px/1.6 var(--sans); letter-spacing: .17em; text-transform: uppercase; color: var(--teal); }
+.IndustriesExperience_button__Ig9ar { display: inline-flex; align-items: center; justify-content: center; gap: 17px; min-height: 50px; padding: 14px 23px; border: 1px solid #2776ed; border-radius: 8px; color: white !important; background: #1768eb; font: 650 13px/1.45 var(--sans); transition: transform .25s,background .25s,box-shadow .25s; }
+.IndustriesExperience_button__Ig9ar svg { width: 18px; height: 18px; }
+.IndustriesExperience_button__Ig9ar:hover { background: #0d55c6; transform: translateY(-2px); box-shadow: 0 10px 26px #0f68dd24; }
+.IndustriesExperience_textLink__UbZXB { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; font-size: 13px; font-weight: 600; }
+.IndustriesExperience_textLink__UbZXB svg { width: 18px; height: 18px; transition: transform .2s; }
+.IndustriesExperience_textLink__UbZXB:hover svg { transform: translateX(4px); }
+.IndustriesExperience_darkButton__eYdK3 { border-color: #153854; background: #12324e; }
+.IndustriesExperience_darkButton__eYdK3:hover { background: #214d70; }
+
+/* Hero: actual portrait captures stay in portrait frames. No dashboard fabrication. */
+.IndustriesExperience_hero__N7_yg { position: relative; overflow: hidden; background: radial-gradient(ellipse at 86% 25%, #103e58, transparent 55%), linear-gradient(115deg,#071a2c,#0a253d 62%,#0c2c43); color: #f5faff; }
+.IndustriesExperience_hero__N7_yg::before { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .18; background-image: linear-gradient(#6095ae24 1px, transparent 1px),linear-gradient(90deg,#6095ae24 1px,transparent 1px); background-size: 58px 58px; -webkit-mask-image: linear-gradient(90deg,transparent 20%,black); mask-image: linear-gradient(90deg,transparent 20%,black); }
+.IndustriesExperience_heroGrid__EnWZ2 { position: relative; display: grid; grid-template-columns: minmax(0,1.05fr) minmax(0,1fr); align-items: center; gap: 24px; min-height: 626px; padding-top: 52px; padding-bottom: 42px; }
+.IndustriesExperience_heroCopy__7sOc6 { position: relative; z-index: 3; min-width: 0; }
+.IndustriesExperience_hero__N7_yg .IndustriesExperience_eyebrow__XeSFe { display: flex; align-items: center; gap: 9px; color: #79d1d7; }
+.IndustriesExperience_hero__N7_yg .IndustriesExperience_eyebrow__XeSFe > span { width: 7px; height: 7px; border-radius: 50%; background: #6cdae1; box-shadow: 0 0 0 4px #72d8e21a; }
+.IndustriesExperience_hero__N7_yg h1 { margin: 23px 0; font: 650 clamp(40px,4.55vw,64px)/1.11 var(--display); letter-spacing: -.055em; color: #fff; }
+.IndustriesExperience_hero__N7_yg h1 em { font-style: normal; color: #77c8ff; }
+.IndustriesExperience_heroDescription__LhdUW { color: #c3d3e0; font-size: 15px; line-height: 1.85; }
+.IndustriesExperience_heroActions__vHzGU { display: flex; align-items: center; flex-wrap: wrap; gap: 25px; margin-top: 29px; }
+.IndustriesExperience_hero__N7_yg .IndustriesExperience_textLink__UbZXB { color: #e0ebf4; }
+.IndustriesExperience_heroFacts__esRGc { display: flex; gap: 24px; margin-top: 45px; padding-top: 23px; border-top: 1px solid #e8f5ff21; }
+.IndustriesExperience_heroFacts__esRGc > span { font-size: 10px; line-height: 1.7; color: #a6bfd1; }
+.IndustriesExperience_heroFacts__esRGc b { display: block; margin-bottom: 4px; color: #f1f9ff; font: 650 17px/1.5 var(--display); letter-spacing: -.02em; }
+.IndustriesExperience_heroVisual__mYvsn { min-height: 525px; position: relative; min-width: 0; }
+.IndustriesExperience_halo__wDADU { position: absolute; top: 13%; left: 2%; width: 100%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, #149cc638,transparent 62%); pointer-events: none; }
+.IndustriesExperience_orbit__K8KIT { position: absolute; top: 15%; left: 2%; width: 95%; aspect-ratio: 1; border-radius: 50%; border: 1px solid #79b7da29; transform: rotate(-22deg) scaleY(.67); }
+.IndustriesExperience_orbit__K8KIT::after { content: ""; position: absolute; inset: -36px; border: 1px dashed #80b4ce22; border-radius: 50%; }
+.IndustriesExperience_phone__Wxt4Q { width: 214px; min-width: 0; padding: 6px; border: 1px solid #7896a6; border-radius: 27px; background: #122c42; box-shadow: 0 26px 48px -18px #03142699, inset 0 0 0 1px #dce9ef2e; overflow: hidden; }
+.IndustriesExperience_phoneImage__yPcll { display: block; width: 100%; max-width: none; height: auto; aspect-ratio: 895/2000; -o-object-fit: contain; object-fit: contain; border-radius: 21px; background: #f5f8fa; }
+.IndustriesExperience_heroPhoneBack__EDGOd { position: absolute; width: 177px; top: 40px; left: 2%; transform: rotate(-10deg); opacity: .94; }
+.IndustriesExperience_heroPhoneBack__EDGOd .IndustriesExperience_phone__Wxt4Q { width: 100%; }
+.IndustriesExperience_heroPhoneFront__qOUFP { position: absolute; z-index: 2; width: 212px; left: 30%; top: 0; }
+.IndustriesExperience_heroPhoneFront__qOUFP .IndustriesExperience_phone__Wxt4Q { width: 100%; }
+.IndustriesExperience_heroPhoneSide__UAC1j { position: absolute; width: 172px; right: -1%; top: 72px; transform: rotate(10deg); opacity: .94; }
+.IndustriesExperience_heroPhoneSide__UAC1j .IndustriesExperience_phone__Wxt4Q { width: 100%; }
+.IndustriesExperience_captureBadge__711eI { position: absolute; z-index: 4; left: 7%; bottom: 15px; display: flex; align-items: center; gap: 13px; padding: 14px 19px; border: 1px solid #acd9ee40; border-radius: 12px; background: #0e314ae8; backdrop-filter: blur(12px); color: #bee1f2; box-shadow: 0 20px 40px #04152950; font-size: 11px; }
+.IndustriesExperience_captureBadge__711eI svg { width: 30px; height: 30px; color: #62c8eb; }
+.IndustriesExperience_captureBadge__711eI strong { font-weight: 650; color: #f3faff; }
+.IndustriesExperience_heroBottom__4AIPw { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-block: 19px; border-top: 1px solid #deefff21; color: #b0c7d9; font: 500 10px/1.5 var(--sans); letter-spacing: .08em; }
+.IndustriesExperience_heroBottom__4AIPw > span:last-child { display: flex; align-items: center; gap: 20px; }
+.IndustriesExperience_heroBottom__4AIPw svg { width: 16px; height: 16px; transform: rotate(90deg); }
+
+/* Existing CMS industries drive the tabs, text and destination links. */
+.IndustriesExperience_explorer__Xd17D { padding: 84px 0 92px; scroll-margin-top: calc(var(--site-header-height,72px) + 18px); outline: none; }
+.IndustriesExperience_sectionHeading__yHdM_ { margin-bottom: 32px; }
+.IndustriesExperience_sectionHeading__yHdM_ .IndustriesExperience_eyebrow__XeSFe { margin-bottom: 14px; }
+.IndustriesExperience_sectionHeading__yHdM_ h2 { font: 650 clamp(29px,3.15vw,43px)/1.18 var(--display); letter-spacing: -.042em; color: #112f4c; }
+.IndustriesExperience_sectionHeading__yHdM_ h2 em { font-style: normal; color: #2476d1; }
+.IndustriesExperience_sectionHeading__yHdM_ > p:last-child:not(.IndustriesExperience_eyebrow__XeSFe) { margin-top: 14px; color: var(--muted); font-size: 14px; }
+.IndustriesExperience_industryTabs__WVmyF { display: flex; gap: 9px; padding: 5px 3px 12px; margin: 0 -3px 38px; overflow-x: auto; scrollbar-width: thin; scrollbar-color: #d5e5f0 transparent; }
+.IndustriesExperience_industryTab__EQ3dn { flex: 1 0 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; min-width: 122px; min-height: 100px; padding: 17px 9px; color: #536f86; border: 1px solid #e0e8f1; border-radius: 12px; background: #fcfdff; transition: background .25s,color .25s,border-color .25s,transform .25s; font: 600 11.5px/1.45 var(--sans); text-align: center; }
+.IndustriesExperience_industryTab__EQ3dn svg { width: 25px; height: 25px; color: #5d7d98; }
+.IndustriesExperience_industryTab__EQ3dn:hover { transform: translateY(-2px); border-color: #aacbef; background: #f1f7ff; }
+.IndustriesExperience_industryTab__EQ3dn.IndustriesExperience_activeTab__Exldf { background: #102f4d; border-color: #12334e; color: #fff; box-shadow: 0 10px 24px -16px #123c7680; }
+.IndustriesExperience_activeTab__Exldf svg { color: #86d0ed; }
+.IndustriesExperience_workspace___cubj { display: grid; grid-template-columns: minmax(0,.97fr) minmax(0,1.03fr); gap: 62px; align-items: center; min-width: 0; outline: none; }
+.IndustriesExperience_industryCopy__l6gqI { padding-right: 4px; }
+.IndustriesExperience_activeIndustry__yUTuu { display: flex; align-items: center; gap: 10px; color: #197e91; font: 600 11px/1.6 var(--sans); letter-spacing: .08em; text-transform: uppercase; }
+.IndustriesExperience_activeIndustry__yUTuu > span { width: 7px; height: 7px; border-radius: 50%; background: #2296a6; }
+.IndustriesExperience_industryCopy__l6gqI h3 { margin: 16px 0 17px; color: #12314f; font: 650 clamp(29px,3vw,43px)/1.2 var(--display); letter-spacing: -.035em; }
+.IndustriesExperience_industrySummary__Li7nF { max-width: 500px; font-size: 14px; line-height: 1.9; color: #5c748b; }
+.IndustriesExperience_benefits__MAOTi { display: grid; gap: 0; margin: 25px 0 27px; border-top: 1px solid var(--line); }
+.IndustriesExperience_benefit__j5HX_ { display: grid; grid-template-columns: 30px minmax(0,1fr); gap: 14px; padding: 18px 0; border-bottom: 1px solid var(--line); }
+.IndustriesExperience_benefit__j5HX_ > span { font: 600 11px/1.6 var(--sans); padding-top: 3px; color: #78a5c0; }
+.IndustriesExperience_benefit__j5HX_ h4 { font: 650 14px/1.45 var(--sans); color: #203f5c; margin-bottom: 5px; }
+.IndustriesExperience_benefit__j5HX_ p { color: #688097; font-size: 12px; line-height: 1.7; }
+.IndustriesExperience_solutionNote__huDMK { font-size: 11px; color: #788ca0; margin-top: 10px; }
+.IndustriesExperience_softwareArea__qq5L6 { min-width: 0; }
+.IndustriesExperience_softwareStage__p53il { position: relative; min-width: 0; overflow: hidden; border: 1px solid #d4e4ef; border-radius: 20px; background: radial-gradient(ellipse at 50% 40%,#d3e9f6,transparent 66%),linear-gradient(140deg,#f6fbff,#eaf3f9); }
+.IndustriesExperience_stageTop__ZlPZe { position: relative; z-index: 2; display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 20px 22px; color: #557b96; font: 600 9px/1.6 var(--sans); letter-spacing: .09em; }
+.IndustriesExperience_stageTop__ZlPZe > span:first-child { display: flex; align-items: center; gap: 8px; }
+.IndustriesExperience_stageTop__ZlPZe > span:first-child > span { width: 5px; height: 5px; border-radius: 50%; background: #55a1bb; }
+.IndustriesExperience_stageDecoration__r1eOk { position: absolute; left: -25%; top: 25%; width: 150%; aspect-ratio: 1; border: 1px solid #b9d7e640; border-radius: 50%; transform: scaleY(.5) rotate(-20deg); pointer-events: none; }
+.IndustriesExperience_stageDecoration__r1eOk::after { content: ""; position: absolute; inset: 30px; border: 1px solid #c4dae555; border-radius: 50%; }
+.IndustriesExperience_phoneStage__rmFx1 { position: relative; display: flex; justify-content: center; align-items: center; min-height: 520px; padding: 5px 10px 25px; }
+.IndustriesExperience_screenButton__aD81q { position: relative; display: block; margin: 0; padding: 0; border: 0; border-radius: 29px; background: transparent; color: #0a426e; }
+.IndustriesExperience_activePhone__Oxk6O { width: 225px; box-shadow: 0 24px 43px -18px #1d4b7880; }
+.IndustriesExperience_screenZoom__BA25J { position: absolute; right: -14px; bottom: 35px; display: grid; place-items: center; width: 38px; height: 38px; color: #285b83; border: 1px solid #c6ddee; background: #fff; border-radius: 12px; box-shadow: 0 7px 20px #30567424; transition: transform .22s; }
+.IndustriesExperience_screenZoom__BA25J svg { width: 18px; height: 18px; }
+.IndustriesExperience_screenButton__aD81q:hover .IndustriesExperience_screenZoom__BA25J { transform: translateY(-3px); }
+.IndustriesExperience_stageSideNote___N7k5 { position: absolute; left: 21px; top: 35%; width: 78px; display: grid; gap: 10px; color: #4d7799; font: 500 10px/1.6 var(--sans); }
+.IndustriesExperience_stageSideNote___N7k5 svg { width: 27px; height: 27px; color: #2b789e; }
+.IndustriesExperience_stageSideNote___N7k5 i { width: 28px; height: 2px; background: #70b1d1; }
+.IndustriesExperience_stageCaption__aXRuw { position: relative; z-index: 2; display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 79px; padding: 16px 22px; background: #ffffffb5; border-top: 1px solid #d6e5ef; }
+.IndustriesExperience_stageCaption__aXRuw strong { display: block; color: #234d70; font: 650 14px/1.5 var(--sans); }
+.IndustriesExperience_stageCaption__aXRuw span { display: block; color: #67869e; font: 400 10px/1.6 var(--sans); margin-top: 2px; }
+.IndustriesExperience_expandButton__P_5an, .IndustriesExperience_carouselActions__9zJjG button { -webkit-appearance: none; -moz-appearance: none; appearance: none; flex: 0 0 auto; display: grid; place-items: center; width: 38px; height: 38px; padding: 0; border: 1px solid #cfdfed; border-radius: 10px; color: #36627f; background: #fff; transition: background .2s; }
+.IndustriesExperience_expandButton__P_5an:hover, .IndustriesExperience_carouselActions__9zJjG button:hover:not(:disabled) { background: #eaf4ff; }
+.IndustriesExperience_expandButton__P_5an svg { width: 18px; height: 18px; }
+.IndustriesExperience_screenNav__jXKe7 { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 7px; margin-top: 13px; }
+.IndustriesExperience_screenTab__fIrvN { display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 6px; min-height: 64px; padding: 9px 4px; border: 1px solid #dfe9f2; border-radius: 9px; background: #fff; color: #66819a; font: 550 10px/1.4 var(--sans); transition: all .2s; }
+.IndustriesExperience_screenTab__fIrvN svg { width: 18px; height: 18px; }
+.IndustriesExperience_screenTab__fIrvN.IndustriesExperience_activeScreen__wqxip { color: #155db1; background: #edf5ff; border-color: #b1ceed; }
+.IndustriesExperience_screenTab__fIrvN:hover { border-color: #9fbfe5; }
+.IndustriesExperience_carouselBottom__T6g0r { display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 70px; padding-top: 12px; }
+.IndustriesExperience_carouselBottom__T6g0r p { max-width: 320px; color: #7790a5; font: 400 10px/1.65 var(--sans); }
+.IndustriesExperience_carouselActions__9zJjG { display: flex; gap: 5px; flex: 0 0 auto; }
+.IndustriesExperience_carouselActions__9zJjG button { width: 32px; height: 32px; border-radius: 8px; }
+.IndustriesExperience_carouselActions__9zJjG svg { width: 15px; height: 15px; }
+.IndustriesExperience_empty__yB9H7 { padding: 50px 25px; background: #f3f8fc; border-radius: 14px; }
+.IndustriesExperience_empty__yB9H7 h3 { font: 650 26px/1.3 var(--display); }
+.IndustriesExperience_empty__yB9H7 p { margin: 10px 0 25px; }
+
+/* Software library: complete screenshots and clear click-to-enlarge controls. */
+.IndustriesExperience_library__iV2jw { padding: 80px 0; border-top: 1px solid #e5edf3; border-bottom: 1px solid #e5edf3; background: #f5f9fc; }
+.IndustriesExperience_libraryGrid__hw7vo { display: grid; grid-template-columns: repeat(6,minmax(0,1fr)); gap: 16px; }
+.IndustriesExperience_libraryCard__N1BXW { display: block; min-width: 0; padding: 0; overflow: hidden; border: 1px solid #dde8f1; border-radius: 14px; background: #fff; color: #2d5171; text-align: left; transition: transform .25s,box-shadow .25s,border-color .25s; }
+.IndustriesExperience_libraryCard__N1BXW:hover { transform: translateY(-5px); box-shadow: 0 16px 25px -17px #2957774a; border-color: #a8c8e7; }
+.IndustriesExperience_libraryImage__zvQM7 { display: flex; justify-content: center; padding: 23px 7px; background: linear-gradient(135deg,#e7f2fa,#f2f8fd); }
+.IndustriesExperience_libraryImage__zvQM7 .IndustriesExperience_phone__Wxt4Q { width: 118px; padding: 4px; border-radius: 16px; box-shadow: 0 15px 27px -13px #2b567b55; }
+.IndustriesExperience_libraryImage__zvQM7 .IndustriesExperience_phoneImage__yPcll { border-radius: 11px; }
+.IndustriesExperience_libraryLabel__omVPW { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 64px; padding: 12px 13px; font: 650 11px/1.55 var(--sans); }
+.IndustriesExperience_libraryLabel__omVPW svg { width: 15px; height: 15px; color: #6e9ac0; }
+.IndustriesExperience_sourceNote__H9HR2 { max-width: 860px; margin-top: 24px !important; font-size: 11px; line-height: 1.7; color: #71869a; }
+.IndustriesExperience_hardware__1efn_ { padding: 80px 0; background: #fff; }
+.IndustriesExperience_hardwareGrid__Bsk3N { display: grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap: 19px; }
+.IndustriesExperience_hardwareCard__He_GD { position: relative; display: flex; flex-direction: column; border: 1px solid #dde8f0; border-radius: 14px; padding: 23px; min-width: 0; transition: border-color .2s,transform .2s; }
+.IndustriesExperience_hardwareCard__He_GD:hover { transform: translateY(-4px); border-color: #a5c5e5; }
+.IndustriesExperience_hardwareVisual__L9uTx { display: grid; place-items: center; height: 140px; margin-bottom: 16px; }
+.IndustriesExperience_hardwareVisual__L9uTx > svg { width: 66px; height: 66px; padding: 12px; color: #1c639f; background: #f1f7fd; border-radius: 18px; }
+.IndustriesExperience_hardwareImage__vQ_o_ { width: 100%; height: 140px; -o-object-fit: contain; object-fit: contain; }
+.IndustriesExperience_hardwareLabel__8RH7R { color: #247c9d; font: 600 9px/1.6 var(--sans); text-transform: uppercase; letter-spacing: .09em; }
+.IndustriesExperience_hardware__1efn_ h3 { margin: 7px 0; font: 650 15px/1.5 var(--display); }
+.IndustriesExperience_hardware__1efn_ p { color: #697e93; font: 400 12px/1.7 var(--sans); padding-right: 18px; }
+.IndustriesExperience_hardwareArrow__gBhp1 { align-self: flex-end; width: 18px !important; height: 18px !important; margin-top: 15px; color: #4682b0; }
+.IndustriesExperience_cta__tk1fu { padding: 68px 0; color: #fff; background: radial-gradient(ellipse at 85% 40%,#164d67,transparent 60%), #09223a; }
+.IndustriesExperience_cta__tk1fu .IndustriesExperience_container__N_Gs0 { display: flex; align-items: center; justify-content: space-between; gap: 42px; }
+.IndustriesExperience_cta__tk1fu .IndustriesExperience_eyebrow__XeSFe { color: #7bbecf; margin-bottom: 16px; }
+.IndustriesExperience_cta__tk1fu h2 { font: 600 clamp(30px,3.2vw,44px)/1.2 var(--display); letter-spacing: -.04em; }
+.IndustriesExperience_cta__tk1fu h2 em { font-style: normal; color: #91cff6; }
+.IndustriesExperience_ctaActions__xCwIP { display: flex; flex-direction: column; align-items: flex-start; gap: 13px; }
+.IndustriesExperience_ctaActions__xCwIP .IndustriesExperience_textLink__UbZXB { color: #c9e3f2; }
+.IndustriesExperience_mobileBreak__2UP50 { display: none; }
+.IndustriesExperience_imageError__bL6tv { display: grid; place-content: center; justify-items: center; gap: 10px; color: #4c7596; font: 500 10px/1.5 var(--sans); }
+
+/* A native dialog keeps full-screen screenshot viewing keyboard-accessible. */
+.IndustriesExperience_viewer__PKLSA { width: 100vw; height: 100dvh; max-width: none; max-height: none; margin: 0; padding: 22px; border: 0; background: #061522bf; color: #fff; overflow: hidden; }
+.IndustriesExperience_viewer__PKLSA::backdrop { background: #04101bc9; backdrop-filter: blur(8px); }
+.IndustriesExperience_viewer__PKLSA:not([open]) { display: none; }
+.IndustriesExperience_viewerContent__gIurD { display: flex; flex-direction: column; width: min(1200px,100%); height: 100%; margin: auto; border: 1px solid #c2d8e623; border-radius: 17px; background: #0b2134; overflow: hidden; }
+.IndustriesExperience_viewerToolbar__SI_Af { display: flex; align-items: center; justify-content: space-between; flex: 0 0 auto; gap: 16px; padding: 16px 22px; border-bottom: 1px solid #d9e9f51a; }
+.IndustriesExperience_viewerToolbar__SI_Af p { color: #7abbd2; font: 600 9px/1.5 var(--sans); letter-spacing: .1em; }
+.IndustriesExperience_viewerToolbar__SI_Af h2 { color: #eff9ff; font: 600 18px/1.6 var(--display); }
+.IndustriesExperience_viewerToolbar__SI_Af > div:last-child { display: flex; align-items: center; gap: 8px; }
+.IndustriesExperience_viewerToolbar__SI_Af button { display: inline-flex; align-items: center; gap: 9px; justify-content: center; min-height: 42px; min-width: 42px; padding: 9px 12px; color: #dfedf7; border: 1px solid #abc9df35; border-radius: 8px; background: #1a374c; font: 500 11px/1.5 var(--sans); }
+.IndustriesExperience_viewerToolbar__SI_Af svg { width: 19px; height: 19px; }
+.IndustriesExperience_viewerCanvas__KJDid { display: block; flex: 1; min-height: 0; overflow: auto; text-align: center; padding: 16px; background: radial-gradient(ellipse,#153751,#081d30); overscroll-behavior: contain; }
+.IndustriesExperience_viewerImage__ETi05 { display: block; margin: 0 auto; width: auto; max-width: 100%; height: 100%; -o-object-fit: contain; object-fit: contain; }
+.IndustriesExperience_viewerCanvas__KJDid[data-zoom="true"] .IndustriesExperience_viewerImage__ETi05 { width: 895px; height: 2000px; max-width: none; max-height: none; }
+.IndustriesExperience_viewerNote__Aqf2c { text-align: center; color: #a9c3d5; padding: 9px 12px; font: 400 10px/1.5 var(--sans); }
+
+@keyframes IndustriesExperience_phoneFloat__u5T3o { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@keyframes IndustriesExperience_screenIn__MbdE8 { from { opacity: .25; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes IndustriesExperience_copyIn__T1R0Y { from { opacity: .25; transform: translateX(-10px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes IndustriesExperience_haloGlow__YOCzL { 0%,100% { opacity: .5; } 50% { opacity: 1; } }
+.IndustriesExperience_page__sW8Uw[data-motion="full"] .IndustriesExperience_hero__N7_yg[data-in-view="true"] .IndustriesExperience_heroPhoneFront__qOUFP { animation: IndustriesExperience_phoneFloat__u5T3o 7s ease-in-out infinite; }
+.IndustriesExperience_page__sW8Uw[data-motion="full"] .IndustriesExperience_hero__N7_yg[data-in-view="true"] .IndustriesExperience_halo__wDADU { animation: IndustriesExperience_haloGlow__YOCzL 5s ease-in-out infinite; }
+.IndustriesExperience_page__sW8Uw[data-motion="full"] .IndustriesExperience_activePhone__Oxk6O { animation: IndustriesExperience_screenIn__MbdE8 .48s ease-out; }
+.IndustriesExperience_page__sW8Uw[data-motion="full"] .IndustriesExperience_industryCopy__l6gqI { animation: IndustriesExperience_copyIn__T1R0Y .45s ease-out; }
+.IndustriesExperience_page__sW8Uw[data-page-visible="false"] *, .IndustriesExperience_page__sW8Uw[data-page-visible="false"] *::before, .IndustriesExperience_page__sW8Uw[data-page-visible="false"] *::after { animation-play-state: paused !important; }
+.IndustriesExperience_page__sW8Uw[data-motion="reduced"] *, .IndustriesExperience_page__sW8Uw[data-motion="reduced"] *::before, .IndustriesExperience_page__sW8Uw[data-motion="reduced"] *::after { animation: none !important; transition: none !important; }
+@media (prefers-reduced-motion: reduce) { .IndustriesExperience_page__sW8Uw *, .IndustriesExperience_page__sW8Uw *::before, .IndustriesExperience_page__sW8Uw *::after { animation: none !important; transition: none !important; } }
+
+@media (min-width: 1600px) { .IndustriesExperience_container__N_Gs0, .IndustriesExperience_heroGrid__EnWZ2, .IndustriesExperience_heroBottom__4AIPw { width: min(1340px,calc(100% - 128px)); } .IndustriesExperience_heroVisual__mYvsn { max-width: 580px; } .IndustriesExperience_workspace___cubj { gap: 80px; } }
+@media (max-width: 1180px) {
+  .IndustriesExperience_container__N_Gs0, .IndustriesExperience_heroGrid__EnWZ2, .IndustriesExperience_heroBottom__4AIPw { width: calc(100% - 64px); }
+  .IndustriesExperience_hero__N7_yg h1 { font-size: 48px; }
+  .IndustriesExperience_heroPhoneBack__EDGOd { left: -1%; width: 153px; top: 55px; }
+  .IndustriesExperience_heroPhoneFront__qOUFP { left: 25%; width: 195px; top: 10px; }
+  .IndustriesExperience_heroPhoneSide__UAC1j { width: 150px; right: -1%; top: 77px; }
+  .IndustriesExperience_heroVisual__mYvsn { min-height: 495px; }
+  .IndustriesExperience_heroFacts__esRGc { gap: 16px; }
+  .IndustriesExperience_heroFacts__esRGc b { font-size: 15px; }
+  .IndustriesExperience_stageSideNote___N7k5 { display: none; }
+  .IndustriesExperience_workspace___cubj { gap: 36px; }
+  .IndustriesExperience_libraryGrid__hw7vo { gap: 10px; }
+  .IndustriesExperience_libraryImage__zvQM7 .IndustriesExperience_phone__Wxt4Q { width: 104px; }
+  .IndustriesExperience_libraryLabel__omVPW { padding-inline: 10px; font-size: 10px; }
+}
+@media (max-width: 900px) {
+  .IndustriesExperience_heroGrid__EnWZ2 { grid-template-columns: 1fr; gap: 34px; padding-top: 47px; }
+  .IndustriesExperience_heroCopy__7sOc6 { max-width: 650px; }
+  .IndustriesExperience_hero__N7_yg h1 { font-size: clamp(39px,7vw,60px); }
+  .IndustriesExperience_heroVisual__mYvsn { width: min(540px,100%); margin-inline: auto; min-height: 505px; }
+  .IndustriesExperience_heroPhoneBack__EDGOd { left: 4%; width: 172px; top: 45px; }
+  .IndustriesExperience_heroPhoneFront__qOUFP { left: calc(50% - 103px); width: 206px; top: 0; }
+  .IndustriesExperience_heroPhoneSide__UAC1j { right: 2%; width: 170px; top: 60px; }
+  .IndustriesExperience_heroFacts__esRGc { max-width: 580px; margin-top: 28px; gap: 40px; }
+  .IndustriesExperience_heroBottom__4AIPw { font-size: 9px; }
+  .IndustriesExperience_industryTabs__WVmyF { gap: 8px; margin-bottom: 30px; }
+  .IndustriesExperience_industryTab__EQ3dn { flex-basis: 137px; flex-grow: 0; min-height: 92px; }
+  .IndustriesExperience_workspace___cubj { grid-template-columns: 1fr; gap: 35px; }
+  .IndustriesExperience_industryCopy__l6gqI { max-width: 720px; }
+  .IndustriesExperience_industryCopy__l6gqI h3 { max-width: 650px; font-size: 37px; }
+  .IndustriesExperience_industrySummary__Li7nF { max-width: 630px; }
+  .IndustriesExperience_benefits__MAOTi { margin-bottom: 24px; }
+  .IndustriesExperience_softwareArea__qq5L6 { width: min(610px,100%); margin-inline: auto; }
+  .IndustriesExperience_stageSideNote___N7k5 { display: grid; left: 35px; }
+  .IndustriesExperience_libraryGrid__hw7vo { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px; }
+  .IndustriesExperience_libraryImage__zvQM7 .IndustriesExperience_phone__Wxt4Q { width: 125px; }
+  .IndustriesExperience_libraryLabel__omVPW { padding: 14px; font-size: 12px; }
+  .IndustriesExperience_hardwareGrid__Bsk3N { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .IndustriesExperience_cta__tk1fu .IndustriesExperience_container__N_Gs0 { gap: 25px; }
+  .IndustriesExperience_cta__tk1fu .IndustriesExperience_button__Ig9ar { padding-inline: 16px; font-size: 12px; }
+}
+@media (max-width: 600px) {
+  .IndustriesExperience_container__N_Gs0, .IndustriesExperience_heroGrid__EnWZ2, .IndustriesExperience_heroBottom__4AIPw { width: calc(100% - 36px); }
+  .IndustriesExperience_heroGrid__EnWZ2 { padding-top: 39px; gap: 29px; padding-bottom: 22px; }
+  .IndustriesExperience_hero__N7_yg h1 { font-size: clamp(34px,9.2vw,48px); letter-spacing: -.05em; }
+  .IndustriesExperience_heroDescription__LhdUW { font-size: 13px; line-height: 1.8; }
+  .IndustriesExperience_heroActions__vHzGU { gap: 13px 22px; margin-top: 25px; }
+  .IndustriesExperience_heroActions__vHzGU .IndustriesExperience_button__Ig9ar { padding-inline: 17px; min-height: 47px; font-size: 12px; }
+  .IndustriesExperience_heroActions__vHzGU .IndustriesExperience_textLink__UbZXB { font-size: 12px; }
+  .IndustriesExperience_heroFacts__esRGc { gap: 0; justify-content: space-between; margin-top: 23px; padding-top: 20px; }
+  .IndustriesExperience_heroFacts__esRGc b { font-size: 14px; }
+  .IndustriesExperience_heroFacts__esRGc span { font-size: 9px; }
+  .IndustriesExperience_heroVisual__mYvsn { width: 100%; min-height: 442px; }
+  .IndustriesExperience_heroPhoneFront__qOUFP { width: 178px; left: calc(50% - 89px); }
+  .IndustriesExperience_heroPhoneBack__EDGOd { width: 132px; left: 0; top: 57px; }
+  .IndustriesExperience_heroPhoneSide__UAC1j { width: 128px; right: 0; top: 64px; }
+  .IndustriesExperience_captureBadge__711eI { left: 5px; bottom: 10px; padding: 10px 14px; font-size: 10px; }
+  .IndustriesExperience_captureBadge__711eI svg { width: 23px; height: 23px; }
+  .IndustriesExperience_heroBottom__4AIPw { padding-block: 16px; }
+  .IndustriesExperience_heroBottom__4AIPw > span:first-child { display: none; }
+  .IndustriesExperience_heroBottom__4AIPw > span:last-child { width: 100%; justify-content: space-between; }
+  .IndustriesExperience_explorer__Xd17D, .IndustriesExperience_hardware__1efn_ { padding-block: 55px; }
+  .IndustriesExperience_library__iV2jw { padding-block: 52px; }
+  .IndustriesExperience_sectionHeading__yHdM_ { margin-bottom: 25px; }
+  .IndustriesExperience_sectionHeading__yHdM_ h2 { font-size: 29px; }
+  .IndustriesExperience_sectionHeading__yHdM_ > p:last-child:not(.IndustriesExperience_eyebrow__XeSFe) { font-size: 13px; }
+  .IndustriesExperience_industryTabs__WVmyF { margin-right: -18px; padding-right: 18px; }
+  .IndustriesExperience_industryTab__EQ3dn { flex-basis: 116px; min-width: 116px; min-height: 91px; font-size: 10.5px; }
+  .IndustriesExperience_industryCopy__l6gqI h3 { font-size: 32px; }
+  .IndustriesExperience_industrySummary__Li7nF { font-size: 13px; }
+  .IndustriesExperience_benefit__j5HX_ { padding-block: 15px; }
+  .IndustriesExperience_benefit__j5HX_ h4 { font-size: 13px; }
+  .IndustriesExperience_stageSideNote___N7k5 { display: none; }
+  .IndustriesExperience_stageTop__ZlPZe { padding: 17px; font-size: 8px; }
+  .IndustriesExperience_phoneStage__rmFx1 { min-height: 478px; padding: 5px 0 23px; }
+  .IndustriesExperience_activePhone__Oxk6O { width: 207px; }
+  .IndustriesExperience_stageCaption__aXRuw { padding: 14px 16px; }
+  .IndustriesExperience_stageCaption__aXRuw strong { font-size: 13px; }
+  .IndustriesExperience_stageCaption__aXRuw span { font-size: 9px; }
+  .IndustriesExperience_screenNav__jXKe7 { gap: 5px; }
+  .IndustriesExperience_screenTab__fIrvN { min-height: 61px; font-size: 9px; }
+  .IndustriesExperience_carouselBottom__T6g0r { gap: 10px; }
+  .IndustriesExperience_carouselBottom__T6g0r p { font-size: 9px; }
+  .IndustriesExperience_carouselActions__9zJjG button { width: 29px; height: 32px; }
+  .IndustriesExperience_libraryGrid__hw7vo { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+  .IndustriesExperience_libraryImage__zvQM7 { padding: 20px 7px; }
+  .IndustriesExperience_libraryImage__zvQM7 .IndustriesExperience_phone__Wxt4Q { width: 108px; }
+  .IndustriesExperience_libraryLabel__omVPW { font-size: 11px; min-height: 55px; padding: 11px; }
+  .IndustriesExperience_sourceNote__H9HR2 { font-size: 10px; }
+  .IndustriesExperience_hardwareGrid__Bsk3N { gap: 12px; }
+  .IndustriesExperience_hardwareCard__He_GD { padding: 17px 13px; }
+  .IndustriesExperience_hardware__1efn_ h3 { font-size: 13px; }
+  .IndustriesExperience_hardware__1efn_ p { font-size: 11px; padding-right: 0; }
+  .IndustriesExperience_hardwareVisual__L9uTx, .IndustriesExperience_hardwareImage__vQ_o_ { height: 103px; }
+  .IndustriesExperience_mobileBreak__2UP50 { display: inline; }
+  .IndustriesExperience_cta__tk1fu { padding-block: 46px; }
+  .IndustriesExperience_cta__tk1fu .IndustriesExperience_container__N_Gs0 { flex-direction: column; align-items: flex-start; gap: 30px; }
+  .IndustriesExperience_viewer__PKLSA { padding: 8px; }
+  .IndustriesExperience_viewerContent__gIurD { border-radius: 11px; }
+  .IndustriesExperience_viewerToolbar__SI_Af { padding: 12px; gap: 7px; }
+  .IndustriesExperience_viewerToolbar__SI_Af p { font-size: 7px; }
+  .IndustriesExperience_viewerToolbar__SI_Af h2 { font-size: 14px; }
+  .IndustriesExperience_viewerToolbar__SI_Af button { padding: 9px; }
+  .IndustriesExperience_viewerToolbar__SI_Af button span { display: none; }
+  .IndustriesExperience_viewerToolbar__SI_Af > div:last-child { gap: 5px; }
+  .IndustriesExperience_viewerCanvas__KJDid { padding: 9px; }
+  .IndustriesExperience_viewerNote__Aqf2c { font-size: 9px; }
+}
+@media (max-width: 359px) {
+  .IndustriesExperience_heroVisual__mYvsn { min-height: 410px; }
+  .IndustriesExperience_heroPhoneFront__qOUFP { width: 161px; left: calc(50% - 80.5px); }
+  .IndustriesExperience_heroPhoneBack__EDGOd { width: 115px; }
+  .IndustriesExperience_heroPhoneSide__UAC1j { width: 115px; }
+  .IndustriesExperience_heroFacts__esRGc b { font-size: 12px; }
+  .IndustriesExperience_heroFacts__esRGc > span { font-size: 8px; }
+  .IndustriesExperience_libraryImage__zvQM7 .IndustriesExperience_phone__Wxt4Q { width: 100px; }
+  .IndustriesExperience_stageCaption__aXRuw span { font-size: 8px; }
+}
+
+.IndustriesExperience_explorerBody__j3D7r { min-width: 0; }
+

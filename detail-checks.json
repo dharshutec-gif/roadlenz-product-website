@@ -1,0 +1,290 @@
+[
+  {
+    "path": "/solutions/taxi",
+    "width": 1366,
+    "overflow": false,
+    "sizes": [
+      "28.686px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": false
+  },
+  {
+    "path": "/solutions/taxi",
+    "width": 390,
+    "overflow": false,
+    "sizes": [
+      "26px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": false
+  },
+  {
+    "path": "/solutions/school-transport",
+    "width": 1366,
+    "overflow": false,
+    "sizes": [
+      "28.686px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": false
+  },
+  {
+    "path": "/solutions/school-transport",
+    "width": 390,
+    "overflow": false,
+    "sizes": [
+      "26px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": false
+  },
+  {
+    "path": "/solutions/logistics",
+    "width": 1366,
+    "overflow": false,
+    "sizes": [
+      "28.686px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": false
+  },
+  {
+    "path": "/solutions/logistics",
+    "width": 390,
+    "overflow": false,
+    "sizes": [
+      "26px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": false
+  },
+  {
+    "path": "/solutions/public-transport",
+    "width": 1366,
+    "overflow": false,
+    "sizes": [
+      "28.686px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": false
+  },
+  {
+    "path": "/solutions/public-transport",
+    "width": 390,
+    "overflow": false,
+    "sizes": [
+      "26px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": false
+  },
+  {
+    "path": "/solutions/employee-transport",
+    "width": 1366,
+    "overflow": false,
+    "sizes": [
+      "28.686px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": false
+  },
+  {
+    "path": "/solutions/employee-transport",
+    "width": 390,
+    "overflow": false,
+    "sizes": [
+      "26px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": false
+  },
+  {
+    "path": "/solutions/mining",
+    "width": 1366,
+    "overflow": false,
+    "sizes": [
+      "28.686px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": false
+  },
+  {
+    "path": "/solutions/mining",
+    "width": 390,
+    "overflow": false,
+    "sizes": [
+      "26px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": false
+  },
+  {
+    "path": "/solutions/agriculture",
+    "width": 1366,
+    "overflow": false,
+    "sizes": [
+      "28.686px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": false
+  },
+  {
+    "path": "/solutions/agriculture",
+    "width": 390,
+    "overflow": false,
+    "sizes": [
+      "26px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": false
+  },
+  {
+    "path": "/products/2ch-ai-dashcam",
+    "width": 1366,
+    "overflow": false,
+    "sizes": [
+      "28.686px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": false
+  },
+  {
+    "path": "/products/2ch-ai-dashcam",
+    "width": 390,
+    "overflow": false,
+    "sizes": [
+      "26px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": false
+  },
+  {
+    "path": "/products/4ch-mdvr-sd-storage",
+    "width": 1366,
+    "overflow": false,
+    "sizes": [
+      "28.686px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": true
+  },
+  {
+    "path": "/products/4ch-mdvr-sd-storage",
+    "width": 390,
+    "overflow": false,
+    "sizes": [
+      "26px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": true
+  },
+  {
+    "path": "/products/roadlenz-dome-camera",
+    "width": 1366,
+    "overflow": false,
+    "sizes": [
+      "28.686px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": true
+  },
+  {
+    "path": "/products/roadlenz-dome-camera",
+    "width": 390,
+    "overflow": false,
+    "sizes": [
+      "26px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": true
+  },
+  {
+    "path": "/products/roadlenz-wired-gps-tracker",
+    "width": 1366,
+    "overflow": false,
+    "sizes": [
+      "28.686px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": true
+  },
+  {
+    "path": "/products/roadlenz-wired-gps-tracker",
+    "width": 390,
+    "overflow": false,
+    "sizes": [
+      "26px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": true
+  },
+  {
+    "path": "/products/roadlenz-adas-system",
+    "width": 1366,
+    "overflow": false,
+    "sizes": [
+      "28.686px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": true
+  },
+  {
+    "path": "/products/roadlenz-adas-system",
+    "width": 390,
+    "overflow": false,
+    "sizes": [
+      "26px"
+    ],
+    "fonts": [
+      "Georgia, \"Times New Roman\", serif"
+    ],
+    "failed": true
+  }
+]

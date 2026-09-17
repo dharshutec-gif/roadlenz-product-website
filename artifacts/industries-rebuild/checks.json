@@ -1,0 +1,71 @@
+{
+  "checks": [
+    {
+      "width": 1920,
+      "overflow": false,
+      "heading": "Different Industries.A Smarter Tomorrow.",
+      "font": "Georgia, \"Times New Roman\", serif",
+      "size": "48px",
+      "broken": [],
+      "tabs": 7,
+      "cards": 7
+    },
+    {
+      "width": 1536,
+      "overflow": false,
+      "heading": "Different Industries.A Smarter Tomorrow.",
+      "font": "Georgia, \"Times New Roman\", serif",
+      "size": "46.848px",
+      "broken": [],
+      "tabs": 7,
+      "cards": 7
+    },
+    {
+      "width": 1366,
+      "overflow": false,
+      "heading": "Different Industries.A Smarter Tomorrow.",
+      "font": "Georgia, \"Times New Roman\", serif",
+      "size": "41.663px",
+      "broken": [],
+      "tabs": 7,
+      "cards": 7
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "heading": "Different Industries.A Smarter Tomorrow.",
+      "font": "Georgia, \"Times New Roman\", serif",
+      "size": "31.232px",
+      "broken": [],
+      "tabs": 7,
+      "cards": 7
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "heading": "Different Industries.A Smarter Tomorrow.",
+      "font": "Georgia, \"Times New Roman\", serif",
+      "size": "30px",
+      "broken": [],
+      "tabs": 7,
+      "cards": 7
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "heading": "Different Industries.A Smarter Tomorrow.",
+      "font": "Georgia, \"Times New Roman\", serif",
+      "size": "30px",
+      "broken": [],
+      "tabs": 7,
+      "cards": 7
+    }
+  ],
+  "errors": [],
+  "keyboard": true,
+  "selector": true,
+  "links": true,
+  "video": true,
+  "story": true,
+  "reducedMotion": true
+}

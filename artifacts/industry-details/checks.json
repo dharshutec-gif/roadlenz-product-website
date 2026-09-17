@@ -1,0 +1,531 @@
+{
+  "results": [
+    {
+      "slug": "cab-taxi",
+      "width": 1366,
+      "heading": "Cab & Taxi",
+      "size": "30.735px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "cab-taxi",
+      "width": 768,
+      "heading": "Cab & Taxi",
+      "size": "26px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "cab-taxi",
+      "width": 390,
+      "heading": "Cab & Taxi",
+      "size": "26px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "school-transport",
+      "width": 1366,
+      "heading": "School Transport",
+      "size": "30.735px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "school-transport",
+      "width": 768,
+      "heading": "School Transport",
+      "size": "26px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "school-transport",
+      "width": 390,
+      "heading": "School Transport",
+      "size": "26px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "public-transport",
+      "width": 1366,
+      "heading": "Public Transport",
+      "size": "30.735px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "public-transport",
+      "width": 768,
+      "heading": "Public Transport",
+      "size": "26px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "public-transport",
+      "width": 390,
+      "heading": "Public Transport",
+      "size": "26px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "employee-transport",
+      "width": 1366,
+      "heading": "Employee Transport",
+      "size": "30.735px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "employee-transport",
+      "width": 768,
+      "heading": "Employee Transport",
+      "size": "26px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "employee-transport",
+      "width": 390,
+      "heading": "Employee Transport",
+      "size": "26px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "trucking-logistics",
+      "width": 1366,
+      "heading": "Logistics & Trucking",
+      "size": "30.735px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "trucking-logistics",
+      "width": 768,
+      "heading": "Logistics & Trucking",
+      "size": "26px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "trucking-logistics",
+      "width": 390,
+      "heading": "Logistics & Trucking",
+      "size": "26px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "mining",
+      "width": 1366,
+      "heading": "Mining",
+      "size": "30.735px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "mining",
+      "width": 768,
+      "heading": "Mining",
+      "size": "26px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "mining",
+      "width": 390,
+      "heading": "Mining",
+      "size": "26px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "agriculture",
+      "width": 1366,
+      "heading": "Agriculture",
+      "size": "30.735px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px",
+        "25.271px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "agriculture",
+      "width": 768,
+      "heading": "Agriculture",
+      "size": "26px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    },
+    {
+      "slug": "agriculture",
+      "width": 390,
+      "heading": "Agriculture",
+      "size": "26px",
+      "oneLine": true,
+      "overflow": false,
+      "headings": [
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px",
+        "23px"
+      ],
+      "buttons": [
+        "999px",
+        "999px",
+        "999px",
+        "999px",
+        "999px"
+      ],
+      "broken": []
+    }
+  ],
+  "errors": [],
+  "featureLink": true
+}

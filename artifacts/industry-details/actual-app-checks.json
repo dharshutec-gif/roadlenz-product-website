@@ -1,0 +1,114 @@
+[
+  {
+    "slug": "cab-taxi",
+    "width": 1366,
+    "screens": 15,
+    "illustrations": 0,
+    "broken": [],
+    "overflow": false
+  },
+  {
+    "slug": "cab-taxi",
+    "width": 390,
+    "screens": 15,
+    "illustrations": 0,
+    "broken": [],
+    "overflow": false
+  },
+  {
+    "slug": "school-transport",
+    "width": 1366,
+    "screens": 15,
+    "illustrations": 0,
+    "broken": [],
+    "overflow": false
+  },
+  {
+    "slug": "school-transport",
+    "width": 390,
+    "screens": 15,
+    "illustrations": 0,
+    "broken": [],
+    "overflow": false
+  },
+  {
+    "slug": "public-transport",
+    "width": 1366,
+    "screens": 15,
+    "illustrations": 0,
+    "broken": [],
+    "overflow": false
+  },
+  {
+    "slug": "public-transport",
+    "width": 390,
+    "screens": 15,
+    "illustrations": 0,
+    "broken": [],
+    "overflow": false
+  },
+  {
+    "slug": "employee-transport",
+    "width": 1366,
+    "screens": 15,
+    "illustrations": 0,
+    "broken": [],
+    "overflow": false
+  },
+  {
+    "slug": "employee-transport",
+    "width": 390,
+    "screens": 15,
+    "illustrations": 0,
+    "broken": [],
+    "overflow": false
+  },
+  {
+    "slug": "trucking-logistics",
+    "width": 1366,
+    "screens": 15,
+    "illustrations": 0,
+    "broken": [],
+    "overflow": false
+  },
+  {
+    "slug": "trucking-logistics",
+    "width": 390,
+    "screens": 15,
+    "illustrations": 0,
+    "broken": [],
+    "overflow": false
+  },
+  {
+    "slug": "mining",
+    "width": 1366,
+    "screens": 15,
+    "illustrations": 0,
+    "broken": [],
+    "overflow": false
+  },
+  {
+    "slug": "mining",
+    "width": 390,
+    "screens": 15,
+    "illustrations": 0,
+    "broken": [],
+    "overflow": false
+  },
+  {
+    "slug": "agriculture",
+    "width": 1366,
+    "screens": 15,
+    "illustrations": 0,
+    "broken": [],
+    "overflow": false
+  },
+  {
+    "slug": "agriculture",
+    "width": 390,
+    "screens": 15,
+    "illustrations": 0,
+    "broken": [],
+    "overflow": false
+  }
+]

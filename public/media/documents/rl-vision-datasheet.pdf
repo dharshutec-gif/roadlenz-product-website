@@ -1,0 +1,67 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1934 >>
+stream
+BT /F2 20 Tf 56 790 Td (Product Data Sheet) Tj ET
+BT /F1 10 Tf 56 780 Td () Tj ET
+BT /F1 10 Tf 56 766 Td (RoadLenz Intelligent Mobility  |  Powered by Bigfox Engineering Private Limited) Tj ET
+BT /F1 10 Tf 56 750 Td () Tj ET
+BT /F2 13 Tf 56 726 Td (RL-Vision AI Camera) Tj ET
+BT /F1 10 Tf 56 708 Td (Edge AI safety camera that watches the road, the lane and the driver — and flags risk before it becomes an incident.) Tj ET
+BT /F1 10 Tf 56 640 Td () Tj ET
+BT /F2 13 Tf 56 620 Td (Key specifications) Tj ET
+BT /F1 9.5 Tf 64 598 Td (Sensor) Tj ET
+BT /F1 9.5 Tf 234 598 Td (1/2.8" CMOS, 1080p @ 30 fps) Tj ET
+BT /F1 9.5 Tf 64 582 Td (Lens) Tj ET
+BT /F1 9.5 Tf 234 582 Td (130° wide, 3-axis image stabilisation) Tj ET
+BT /F1 9.5 Tf 64 566 Td (AI processing) Tj ET
+BT /F1 9.5 Tf 234 566 Td (On-device ADAS: lane departure, forward collision, driver state) Tj ET
+BT /F1 9.5 Tf 64 550 Td (Connectivity) Tj ET
+BT /F1 9.5 Tf 234 550 Td (4G/LTE + Wi-Fi backup, GPS/BeiDou positioning) Tj ET
+BT /F1 9.5 Tf 64 534 Td (Storage) Tj ET
+BT /F1 9.5 Tf 234 534 Td (64 GB eMMC, loop recording, event lock) Tj ET
+BT /F1 9.5 Tf 64 518 Td (Power) Tj ET
+BT /F1 9.5 Tf 234 518 Td (9–32 V DC, reverse polarity protection) Tj ET
+BT /F1 9.5 Tf 64 502 Td (Operating temp) Tj ET
+BT /F1 9.5 Tf 234 502 Td (-30°C to +70°C) Tj ET
+BT /F1 9.5 Tf 64 486 Td (Mounting) Tj ET
+BT /F1 9.5 Tf 234 486 Td (Windshield bracket, vibration-rated) Tj ET
+BT /F1 9.5 Tf 64 470 Td (Compliance) Tj ET
+BT /F1 9.5 Tf 234 470 Td (IP67 housing) Tj ET
+BT /F1 9.5 Tf 64 454 Td (Warranty) Tj ET
+BT /F1 9.5 Tf 234 454 Td (24 months, parts and labour) Tj ET
+BT /F1 10 Tf 56 300 Td () Tj ET
+BT /F1 10 Tf 56 300 Td (This is demo sample content for the RoadLenz website build. Specifications are) Tj ET
+BT /F1 10 Tf 56 286 Td (illustrative and must be replaced with verified data through the CMS before launch.) Tj ET
+BT /F1 10 Tf 56 250 Td (support@roadlenz.in  |  www.roadlenz.in) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000000402 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2387
+%%EOF

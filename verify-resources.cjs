@@ -1,0 +1,27 @@
+const fs=require('node:fs'),assert=require('node:assert/strict'),ts=require('typescript');
+function load(file){const mod={exports:{}};new Function('module','exports','require',ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText)(mod,mod.exports,require);return mod.exports;}
+const {getPublicResources,safeResourceUrl,searchDocumentation,isPublicResource}=load('src/lib/resource-content.ts');
+const {validResourceFile,parseResourceRange}=load('src/lib/resource-files.ts');
+const db=JSON.parse(fs.readFileSync('data/db.json','utf8')),before=JSON.stringify(db);
+let items=getPublicResources(db);
+assert.equal(items.some(r=>r.type==='case-study'),false,'Pending approval case studies must not be displayed');
+assert.ok(items.some(r=>r.type==='documentation'));
+assert.ok(searchDocumentation(items,'camera').length);
+assert.equal(searchDocumentation(items,'no-such-resource-729').length,0);
+for(const bad of ['https://private.example/file.pdf','javascript:alert(1)','//evil/a.pdf','/media/../secret.pdf','/media/%2e%2e/secret.pdf','/media/a.svg','/admin/private.pdf','/uploads/a.pdf?token=secret','/uploads/a.pdf#x']) assert.equal(safeResourceUrl(bad),'',bad);
+assert.equal(safeResourceUrl('/media/documents/example.pdf'),'/media/documents/example.pdf');
+const fixture=structuredClone(db);fixture.resources.push({...fixture.resources[0],id:'private-fixture',title:'PRIVATE-DRAFT-NEVER-SERIALIZE',published:false,file:{name:'secret',url:'/api/resources/files/'+ 'a'.repeat(32)+'.pdf'}});
+assert.ok(!JSON.stringify(getPublicResources(fixture)).includes('PRIVATE-DRAFT'));
+fixture.resources=fixture.resources.map(r=>({...r,published:false}));fixture.products=fixture.products.map(p=>({...p,published:false}));fixture.caseStudies=[];
+assert.deepEqual(getPublicResources(fixture),[]);
+assert.equal(isPublicResource({published:true,type:'case-study',approved:false}),false);
+assert.equal(isPublicResource({published:true,type:'case-study',approved:true}),true);
+assert.ok(validResourceFile('pdf',Buffer.from('%PDF-1.4\n')));
+assert.equal(validResourceFile('pdf',Buffer.from('<script>alert(1)</script>')),false);
+assert.equal(validResourceFile('svg',Buffer.from('<svg/>')),false);
+assert.deepEqual(parseResourceRange('bytes=10-19',100),{start:10,end:19});
+assert.deepEqual(parseResourceRange('bytes=-10',100),{start:90,end:99});
+assert.deepEqual(parseResourceRange('bytes=10-',100),{start:10,end:99});
+for(const range of ['bytes=100-','bytes=-0','bytes=2-1','bytes=1-2,3-4','bytes=-']) assert.equal(parseResourceRange(range,100),false);
+assert.equal(JSON.stringify(db),before);
+console.log('PASS: publication/approval, private URL exclusion, published documentation search, empty state, file signatures, video ranges and source preservation');

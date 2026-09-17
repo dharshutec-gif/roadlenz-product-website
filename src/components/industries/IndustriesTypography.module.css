@@ -1,0 +1,35 @@
+/* Typography shared by every section of the industries overview. */
+.typography {
+  --industries-heading-size: clamp(30px, 3.05vw, 48px);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+.typography.typography.typography section :is(h1, h2) {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: var(--industries-heading-size);
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+}
+
+.typography.typography.typography section :is(h1, h2) :is(em, span) {
+  font: inherit;
+  font-style: italic;
+  font-weight: 500;
+  color: #0876f9;
+  letter-spacing: inherit;
+}
+
+.typography.typography section :is(h1, h2) + p {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.typography section :is(h1, h2) + p + a,
+.typography section a[href="#industry-explorer"] {
+  font-size: 13px;
+  font-weight: 800;
+}

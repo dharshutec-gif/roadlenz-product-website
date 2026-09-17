@@ -1,0 +1,10 @@
+﻿const assert=require('node:assert/strict'),fs=require('node:fs'),ts=require('typescript'),vm=require('node:vm');
+const mod={exports:{}};vm.runInNewContext(ts.transpileModule(fs.readFileSync('src/lib/checkout.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020}}).outputText,{exports:mod.exports,module:mod,require});
+const {priceInPaise,checkoutSummary}=mod.exports;
+for(const [value,expected] of [['₹1,299.50',129950],['INR 1,00,000',10000000],['Rs. 150',15000],['10-20',null],['Price on request',null],['10.999',null],['-20',null],['',null]])assert.equal(priceInPaise(value),expected,value);
+const db={products:[{id:'p1',published:true,price:'1299.50',trackInventory:true,stockQuantity:3,name:'Device'}],customers:{a:{cart:{p1:{quantity:2}}},b:{cart:{}}}};
+let result=checkoutSummary(db,'a');assert.equal(result.subtotal,259900);assert.equal(result.paymentEnabled,false);assert.equal(result.hasUnavailableItems,false);assert.equal(checkoutSummary(db,'b').items.length,0);
+db.products[0].stockQuantity=1;assert.equal(checkoutSummary(db,'a').hasUnavailableItems,true);
+db.products[0].priceOnRequest=true;assert.equal(checkoutSummary(db,'a').subtotal,null);
+db.customers.a.cart.p1.quantity=-2;assert.equal(checkoutSummary(db,'a').hasUnavailableItems,true);
+console.log('Checkout amount, isolation, stock and disabled-payment checks passed.');

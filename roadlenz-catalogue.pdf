@@ -1,0 +1,57 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1437 >>
+stream
+BT /F2 20 Tf 56 790 Td (Product Catalogue 2026) Tj ET
+BT /F1 10 Tf 56 766 Td (RoadLenz Intelligent Mobility  |  Powered by Bigfox Engineering Private Limited) Tj ET
+BT /F1 10 Tf 56 750 Td () Tj ET
+BT /F2 13 Tf 56 726 Td (01  RL-Vision AI Camera) Tj ET
+BT /F1 10 Tf 56 710 Td (Edge AI safety camera — ADAS, driver monitoring, event capture.) Tj ET
+BT /F2 13 Tf 56 680 Td (02  RL-MDVR 8CH) Tj ET
+BT /F1 10 Tf 56 664 Td (Multi-channel vehicle DVR with black-box event capture.) Tj ET
+BT /F2 13 Tf 56 634 Td (03  RL-Track Pro) Tj ET
+BT /F1 10 Tf 56 618 Td (GPS tracker with event detection and offline memory.) Tj ET
+BT /F2 13 Tf 56 588 Td (04  RL-Dash 2K) Tj ET
+BT /F1 10 Tf 56 572 Td (2K evidence dashcam with parking mode.) Tj ET
+BT /F2 13 Tf 56 542 Td (05  RL-FuelSense) Tj ET
+BT /F1 10 Tf 56 526 Td (Fuel telemetry with drain and tamper alarms.) Tj ET
+BT /F2 13 Tf 56 496 Td (06  RL-IO Hub) Tj ET
+BT /F1 10 Tf 56 480 Td (Vehicle data gateway — doors, temperature, CAN.) Tj ET
+BT /F2 13 Tf 56 450 Td (07  RL-Count) Tj ET
+BT /F1 10 Tf 56 434 Td (AI person counting for school buses and shuttles.) Tj ET
+BT /F2 13 Tf 56 404 Td (08  RL-Access RFID) Tj ET
+BT /F1 10 Tf 56 388 Td (Gate and zone access for depots and yards.) Tj ET
+BT /F1 10 Tf 56 340 Td () Tj ET
+BT /F1 10 Tf 56 330 Td (Demo sample content — replace with the approved catalogue before launch.) Tj ET
+BT /F1 10 Tf 56 310 Td (www.roadlenz.in  |  sales@roadlenz.in) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000000402 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1890
+%%EOF

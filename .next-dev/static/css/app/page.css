@@ -1,0 +1,1037 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/home/HomeExperience.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.HomeExperience_page__hDGNY {
+  --navy: #082d63;
+  --blue: #0788f5;
+  --blue-2: #0ea5ff;
+  --ink: #0b2d5c;
+  --muted: #61728a;
+  --line: #dce9f5;
+  --pale: #f4faff;
+  background: #ffffff;
+  color: var(--ink);
+  overflow: hidden;
+}
+
+.HomeExperience_shell__flw_A {
+  width: min(1380px, calc(100% - 64px));
+  margin: 0 auto;
+}
+
+.HomeExperience_hero__nc9Vx {
+  position: relative;
+  min-height: 560px;
+  overflow: hidden;
+  isolation: isolate;
+  background: #eaf7ff;
+}
+
+.HomeExperience_heroScenery__vI79U {
+  position: absolute;
+  inset: 0;
+  z-index: -4;
+  background:
+    linear-gradient(90deg, rgba(255,255,255,.98) 0%, rgba(255,255,255,.88) 34%, rgba(255,255,255,.26) 63%, rgba(255,255,255,.03) 100%),
+    linear-gradient(180deg, rgba(242,250,255,.15), rgba(227,244,255,.35)),
+    url('/media/home/hero-road.jpg') center 52% / cover no-repeat;
+  transform: scale(1.02);
+  animation: HomeExperience_heroDrift__22JF8 14s ease-in-out infinite alternate;
+}
+
+.HomeExperience_heroGlow___9hvF {
+  position: absolute;
+  inset: 0;
+  z-index: -3;
+  background:
+    radial-gradient(circle at 38% 33%, rgba(255,255,255,.9), rgba(255,255,255,0) 35%),
+    linear-gradient(180deg, rgba(255,255,255,0) 64%, rgba(255,255,255,.28));
+  pointer-events: none;
+}
+
+.HomeExperience_heroTruck__jKNXQ {
+  position: absolute;
+  z-index: -1;
+  right: clamp(-85px, -3vw, 10px);
+  bottom: -28px;
+  width: min(690px, 52vw);
+  max-height: 530px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: right bottom;
+     object-position: right bottom;
+  filter: hue-rotate(190deg) saturate(.78) drop-shadow(0 30px 34px rgba(3,34,74,.22));
+}
+
+.HomeExperience_heroInner__BNq0r {
+  width: min(1380px, calc(100% - 64px));
+  min-height: 560px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.HomeExperience_heroCopy___Q_6z {
+  width: min(770px, 62%);
+  padding-bottom: 30px;
+}
+
+.HomeExperience_heroEyebrow__WmUAV,
+.HomeExperience_eyebrow__9Gphd {
+  color: var(--blue);
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: .21em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.HomeExperience_heroCopy___Q_6z h1 {
+  margin: 24px 0 0;
+  max-width: 860px;
+  font-size: clamp(46px, 4.25vw, 76px);
+  line-height: .98;
+  letter-spacing: -.055em;
+  font-weight: 800;
+  color: #0a2f63;
+  white-space: nowrap;
+}
+
+.HomeExperience_heroCopy___Q_6z h1 span {
+  color: var(--blue);
+}
+
+.HomeExperience_heroActions__M3HfP {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 34px;
+}
+
+.HomeExperience_primaryButton__Qdlx_,
+.HomeExperience_secondaryButton__iQJ8o,
+.HomeExperience_darkOutlineButton__LqJfz {
+  min-height: 50px;
+  padding: 0 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 750;
+  font-size: 14px;
+  transition: transform .25s ease, box-shadow .25s ease, background .25s ease, border-color .25s ease;
+}
+
+.HomeExperience_primaryButton__Qdlx_ {
+  color: white;
+  background: linear-gradient(135deg, #0788f5, #0ea5ff);
+  box-shadow: 0 12px 28px rgba(7,136,245,.2);
+}
+
+.HomeExperience_primaryButton__Qdlx_:hover,
+.HomeExperience_secondaryButton__iQJ8o:hover,
+.HomeExperience_darkOutlineButton__LqJfz:hover {
+  transform: translateY(-2px);
+}
+
+.HomeExperience_primaryButton__Qdlx_:hover {
+  box-shadow: 0 16px 36px rgba(7,136,245,.28);
+}
+
+.HomeExperience_secondaryButton__iQJ8o {
+  color: #0a4d95;
+  background: rgba(255,255,255,.84);
+  border: 1px solid rgba(7,136,245,.48);
+  box-shadow: 0 8px 24px rgba(8,72,130,.08);
+  backdrop-filter: blur(10px);
+}
+
+.HomeExperience_heroNote__zXhWq {
+  position: absolute;
+  right: 1.5%;
+  top: 74px;
+  font-size: clamp(22px, 2vw, 34px);
+  line-height: 1.12;
+  color: #0a4e99;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', serif;
+  transform: rotate(-7deg);
+  text-align: center;
+  opacity: .88;
+}
+
+.HomeExperience_trustWrap__okzgp {
+  position: relative;
+  z-index: 3;
+  margin-top: -52px;
+}
+
+.HomeExperience_trustBar__xU2my {
+  width: min(1270px, calc(100% - 96px));
+  margin: 0 auto;
+  min-height: 112px;
+  border: 1px solid rgba(210,228,242,.9);
+  border-radius: 22px;
+  background: rgba(255,255,255,.95);
+  box-shadow: 0 18px 50px rgba(21,79,131,.12);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  backdrop-filter: blur(18px);
+}
+
+.HomeExperience_trustItem__mKdxC {
+  display: grid;
+  grid-template-columns: 48px 1fr auto;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+  padding: 0 30px;
+}
+
+.HomeExperience_trustIcon__2sbTV {
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  color: var(--blue);
+  background: #edf8ff;
+}
+
+.HomeExperience_trustIcon__2sbTV svg { width: 25px; height: 25px; }
+
+.HomeExperience_trustItem__mKdxC strong {
+  display: block;
+  font-size: 25px;
+  line-height: 1.05;
+  letter-spacing: -.035em;
+  color: #082d63;
+}
+
+.HomeExperience_trustItem__mKdxC span {
+  display: block;
+  margin-top: 5px;
+  color: #708198;
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+.HomeExperience_trustItem__mKdxC i {
+  width: 1px;
+  height: 48px;
+  background: #dce8f4;
+  display: block;
+}
+
+.HomeExperience_section__55NgZ,
+.HomeExperience_compactSection__UnJfm,
+.HomeExperience_clientsSection__wtKnO,
+.HomeExperience_presenceSection__OV1gB,
+.HomeExperience_ctaSection__ACGOB {
+  position: relative;
+}
+
+.HomeExperience_section__55NgZ { padding: 94px 0 104px; }
+.HomeExperience_compactSection__UnJfm { padding: 78px 0 86px; }
+.HomeExperience_clientsSection__wtKnO { padding: 78px 0 54px; }
+.HomeExperience_presenceSection__OV1gB { padding: 58px 0 82px; }
+.HomeExperience_ctaSection__ACGOB { padding: 20px 0 72px; }
+
+.HomeExperience_sectionHeading__Dj4PZ {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.HomeExperience_sectionHeading__Dj4PZ h2,
+.HomeExperience_splitCopy__pBNRA h2,
+.HomeExperience_compactSection__UnJfm h2,
+.HomeExperience_softwareCopy__uhOQh h2,
+.HomeExperience_ecosystemSection__CgYMs h2,
+.HomeExperience_clientsSection__wtKnO h2,
+.HomeExperience_presenceCopy__EdPZw h2,
+.HomeExperience_ctaCopy__3nIjR h2 {
+  margin: 11px 0 0;
+  color: #092f63;
+  font-weight: 800;
+  letter-spacing: -.045em;
+  font-size: clamp(28px, 2.35vw, 42px);
+  line-height: 1.08;
+}
+
+.HomeExperience_textLink__X0cYe {
+  color: var(--blue);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 750;
+  white-space: nowrap;
+  padding-bottom: 4px;
+}
+
+.HomeExperience_sectionSub__kScD_ {
+  margin: 10px 0 0;
+  color: #65778f;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.HomeExperience_fleetSection__mzxD5 {
+  padding-bottom: 92px;
+  background:
+    linear-gradient(180deg, #fff 0%, #fff 42%, #f7fbff 100%);
+}
+
+.HomeExperience_vehicleViewport__XDKE1 {
+  position: relative;
+  margin-top: 44px;
+  overflow: hidden;
+  padding: 16px 0 10px;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 4%, #000 96%, transparent 100%);
+          mask-image: linear-gradient(90deg, transparent 0, #000 4%, #000 96%, transparent 100%);
+}
+
+.HomeExperience_cityLine__2osiM {
+  position: absolute;
+  inset: 0 0 22px;
+  background:
+    linear-gradient(180deg, transparent 0%, transparent 56%, rgba(235,247,255,.84) 56%),
+    linear-gradient(90deg, transparent 0 8%, rgba(175,215,242,.28) 8% 8.7%, transparent 8.7% 14%, rgba(175,215,242,.24) 14% 15%, transparent 15% 19%, rgba(175,215,242,.18) 19% 20%, transparent 20% 100%);
+  opacity: .66;
+  pointer-events: none;
+}
+
+.HomeExperience_vehicleTrack__PD0M9 {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  width: -moz-max-content;
+  width: max-content;
+  align-items: flex-end;
+  gap: clamp(28px, 3vw, 56px);
+  padding-inline: 4vw;
+  animation: HomeExperience_vehicleMarquee__IjQ02 34s linear infinite;
+}
+
+.HomeExperience_vehicleViewport__XDKE1:hover .HomeExperience_vehicleTrack__PD0M9 { animation-play-state: paused; }
+
+.HomeExperience_vehicleItem__UaFGQ {
+  width: clamp(170px, 13vw, 235px);
+  flex: 0 0 auto;
+  text-decoration: none;
+  color: #0b2d5c;
+  text-align: center;
+  transition: transform .3s ease;
+}
+
+.HomeExperience_vehicleItem__UaFGQ:hover { transform: translateY(-7px); }
+
+.HomeExperience_vehicleItem__UaFGQ img {
+  width: 100%;
+  height: clamp(142px, 10.5vw, 190px);
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center bottom;
+     object-position: center bottom;
+  filter: drop-shadow(0 16px 13px rgba(24,71,112,.16));
+}
+
+.HomeExperience_vehicleItem__UaFGQ span {
+  display: block;
+  margin-top: 11px;
+  font-size: 13px;
+  font-weight: 750;
+}
+
+.HomeExperience_productGrid__T1bry {
+  margin-top: 38px;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0,1fr));
+  gap: 14px;
+}
+
+.HomeExperience_productCard__0Dga_ {
+  min-height: 248px;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  border: 1px solid #e0ebf5;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #fff 0%, #fbfdff 100%);
+  box-shadow: 0 12px 26px rgba(33,82,127,.06);
+  text-decoration: none;
+  color: #0b2d5c;
+  transition: transform .28s ease, box-shadow .28s ease, border-color .28s ease;
+}
+
+.HomeExperience_productCard__0Dga_:hover {
+  transform: translateY(-7px);
+  border-color: #b9dbf8;
+  box-shadow: 0 18px 38px rgba(30,99,159,.12);
+}
+
+.HomeExperience_productImage__VJ4to {
+  height: 112px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.HomeExperience_productImage__VJ4to img {
+  width: 94%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+.HomeExperience_productCard__0Dga_ h3 {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+}
+
+.HomeExperience_productCard__0Dga_ p {
+  margin: 7px 0 0;
+  color: #718299;
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.HomeExperience_circleArrow__izq1Z {
+  margin-top: auto;
+  width: 26px;
+  height: 26px;
+  border: 1px solid #abd6fb;
+  color: var(--blue);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+}
+
+.HomeExperience_softSection__wm_PY {
+  background:
+    radial-gradient(circle at 70% 48%, rgba(188,229,255,.34), transparent 28%),
+    linear-gradient(180deg, #f7fbff 0%, #fff 100%);
+}
+
+.HomeExperience_split__igJx7 {
+  display: grid;
+  grid-template-columns: .92fr 1.25fr;
+  align-items: center;
+  gap: 72px;
+}
+
+.HomeExperience_splitCopy__pBNRA .HomeExperience_sectionSub__kScD_ { max-width: 560px; }
+
+.HomeExperience_featureGrid__Sw2GB {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 14px 22px;
+  margin: 32px 0 34px;
+}
+
+.HomeExperience_featureItem__XBCJh {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  font-size: 13px;
+}
+
+.HomeExperience_featureItem__XBCJh > span {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  color: var(--blue);
+  background: #fff;
+  box-shadow: 0 7px 20px rgba(17,80,137,.08);
+  border: 1px solid #dbeaf7;
+}
+
+.HomeExperience_featureItem__XBCJh svg { width: 19px; height: 19px; }
+
+.HomeExperience_visualSide___1HHV { position: relative; min-height: 420px; }
+
+.HomeExperience_deviceScene__DWwNy {
+  position: relative;
+  min-height: 370px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.HomeExperience_laptop___bB1_ {
+  width: min(560px, 80%);
+  position: relative;
+  filter: drop-shadow(0 22px 24px rgba(10,54,100,.18));
+}
+
+.HomeExperience_laptopScreen__S_6WH {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  border: 10px solid #0c1420;
+  border-bottom-width: 14px;
+  border-radius: 14px 14px 8px 8px;
+  overflow: hidden;
+  background: #06192d;
+}
+
+.HomeExperience_laptopScreen__S_6WH img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center 4%;
+     object-position: center 4%;
+}
+
+.HomeExperience_laptopBase__uZqJ_ {
+  width: 114%;
+  height: 15px;
+  margin-left: -7%;
+  border-radius: 2px 2px 18px 18px;
+  background: linear-gradient(180deg, #dce2e7, #888f96 55%, #d4dbe0);
+  box-shadow: 0 5px 8px rgba(25,42,60,.2);
+}
+
+.HomeExperience_phone__21I5V {
+  position: absolute;
+  right: 8%;
+  bottom: 2%;
+  width: 105px;
+  height: 210px;
+  padding: 7px;
+  border-radius: 24px;
+  background: #10171f;
+  box-shadow: 0 18px 30px rgba(9,38,69,.24);
+}
+
+.HomeExperience_phoneScreen__VmoNz {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  overflow: hidden;
+  background: white;
+}
+
+.HomeExperience_phoneScreen__VmoNz img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center top;
+     object-position: center top;
+}
+
+.HomeExperience_handNote__6xtva {
+  position: absolute;
+  right: 0;
+  top: 26px;
+  color: #1565bd;
+  font-size: 27px;
+  line-height: 1.08;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', serif;
+  transform: rotate(-7deg);
+}
+
+.HomeExperience_whyGrid__1_8KU {
+  margin-top: 34px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0,1fr));
+  gap: 16px;
+}
+
+.HomeExperience_whyCard__4tRSH {
+  min-height: 92px;
+  padding: 18px 20px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  border: 1px solid #deebf6;
+  border-radius: 13px;
+  background: #fff;
+  box-shadow: 0 9px 24px rgba(22,77,127,.06);
+}
+
+.HomeExperience_whyCard__4tRSH > span {
+  flex: 0 0 auto;
+  color: var(--blue);
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+}
+
+.HomeExperience_whyCard__4tRSH svg { width: 30px; height: 30px; }
+.HomeExperience_whyCard__4tRSH strong { font-size: 13px; }
+.HomeExperience_whyCard__4tRSH p { margin: 5px 0 0; color: #78889c; font-size: 10.5px; line-height: 1.35; }
+
+.HomeExperience_softwareSection__IuX_c {
+  background: linear-gradient(90deg, #fff 0%, #f5fbff 62%, #fff 100%);
+}
+
+.HomeExperience_softwareGrid__hgGqE {
+  display: grid;
+  grid-template-columns: .9fr 1.1fr .62fr;
+  gap: 52px;
+  align-items: center;
+}
+
+.HomeExperience_softwareCopy__uhOQh h2 { max-width: 540px; }
+.HomeExperience_softwareGrid__hgGqE .HomeExperience_deviceScene__DWwNy { min-height: 300px; }
+.HomeExperience_softwareGrid__hgGqE .HomeExperience_laptop___bB1_ { width: min(490px, 84%); }
+.HomeExperience_softwareGrid__hgGqE .HomeExperience_phone__21I5V { width: 82px; height: 166px; right: 5%; }
+
+.HomeExperience_softwareList__LYyFe {
+  display: grid;
+  gap: 15px;
+}
+
+.HomeExperience_softwareList__LYyFe > div {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  color: #21476f;
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.HomeExperience_softwareList__LYyFe span {
+  width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--blue);
+  color: #fff;
+  font-size: 12px;
+}
+
+.HomeExperience_ecosystemSection__CgYMs {
+  position: relative;
+  padding: 76px 0 82px;
+  overflow: hidden;
+  color: #fff;
+  background: #032c55;
+}
+
+.HomeExperience_ecosystemBackdrop__L4j_u {
+  position: absolute;
+  inset: 0;
+  opacity: .44;
+  background:
+    linear-gradient(90deg, rgba(0,25,52,.96), rgba(0,49,90,.7) 55%, rgba(0,28,57,.95)),
+    url('/media/home/hero-road.jpg') center / cover no-repeat;
+}
+
+.HomeExperience_ecosystemSection__CgYMs .HomeExperience_shell__flw_A { position: relative; z-index: 1; }
+.HomeExperience_eyebrowLight__sP2OU { color: #46b9ff; }
+.HomeExperience_ecosystemSection__CgYMs h2 { color: #fff; }
+.HomeExperience_ecosystemSection__CgYMs > .HomeExperience_shell__flw_A > div > p {
+  margin: 9px 0 0;
+  color: rgba(255,255,255,.68);
+  font-size: 13px;
+}
+
+.HomeExperience_ecosystemFlow__Z7Nkg {
+  display: grid;
+  grid-template-columns: 1fr .28fr 1.05fr .28fr 1fr .28fr 1fr;
+  gap: 14px;
+  align-items: center;
+  margin-top: 42px;
+}
+
+.HomeExperience_flowCard__RBiW6 {
+  min-height: 150px;
+  padding: 24px;
+  border: 1px solid rgba(0,169,255,.55);
+  border-radius: 15px;
+  background: linear-gradient(180deg, rgba(0,73,126,.48), rgba(0,35,68,.62));
+  box-shadow: inset 0 0 36px rgba(0,153,255,.07), 0 12px 30px rgba(0,0,0,.08);
+  backdrop-filter: blur(8px);
+}
+
+.HomeExperience_flowCard__RBiW6 h3 { margin: 0; font-size: 15px; }
+.HomeExperience_flowCard__RBiW6 p, .HomeExperience_flowCard__RBiW6 li { color: rgba(255,255,255,.72); font-size: 11px; line-height: 1.7; }
+.HomeExperience_flowCard__RBiW6 ul { padding-left: 17px; margin: 14px 0 0; }
+
+.HomeExperience_vehicleIcons__ngwI6 {
+  margin: 20px 0 8px;
+  display: flex;
+  gap: 14px;
+  color: #fff;
+}
+.HomeExperience_vehicleIcons__ngwI6 svg { width: 24px; height: 24px; }
+
+.HomeExperience_flowLine__ChUQC {
+  height: 2px;
+  background: linear-gradient(90deg, rgba(53,195,255,.2), #36c7ff, rgba(53,195,255,.2));
+  position: relative;
+}
+.HomeExperience_flowLine__ChUQC span {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #70e0ff;
+  box-shadow: 0 0 16px #36c7ff;
+  animation: HomeExperience_dataDot__e93QR 2.7s linear infinite;
+}
+
+.HomeExperience_platformHub__oe_6h {
+  position: relative;
+  min-height: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.HomeExperience_platformHub__oe_6h img {
+  width: 180px;
+  height: 120px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(0 14px 14px rgba(0,0,0,.35));
+}
+
+.HomeExperience_platformHub__oe_6h strong { margin-top: 1px; font-size: 13px; }
+.HomeExperience_platformHub__oe_6h small { margin-top: 4px; color: #8fd9ff; }
+
+.HomeExperience_hubRing__kI0Xq {
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 210px; height: 210px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(0,185,255,.58);
+  box-shadow: 0 0 50px rgba(0,166,255,.3), inset 0 0 48px rgba(0,154,255,.15);
+}
+.HomeExperience_hubRing__kI0Xq::before,
+.HomeExperience_hubRing__kI0Xq::after {
+  content: '';
+  position: absolute;
+  inset: 18px;
+  border-radius: inherit;
+  border: 1px dashed rgba(74,211,255,.46);
+  animation: HomeExperience_spinRing__wBtH0 14s linear infinite;
+}
+.HomeExperience_hubRing__kI0Xq::after { inset: 38px; animation-direction: reverse; animation-duration: 10s; }
+
+.HomeExperience_clientsSection__wtKnO {
+  background: #fff;
+}
+.HomeExperience_clientsSection__wtKnO h2 { font-size: clamp(26px, 2vw, 36px); }
+
+.HomeExperience_logoViewport__RZexC {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 5%, #000 95%, transparent 100%);
+          mask-image: linear-gradient(90deg, transparent 0, #000 5%, #000 95%, transparent 100%);
+}
+.HomeExperience_logoViewport__RZexC + .HomeExperience_logoViewport__RZexC { margin-top: 12px; }
+
+.HomeExperience_logoTrack__k0Iqu {
+  display: flex;
+  width: -moz-max-content;
+  width: max-content;
+  gap: 12px;
+}
+.HomeExperience_logoTrackLeft__umiZS { animation: HomeExperience_logoLeft__2asYB 30s linear infinite; }
+.HomeExperience_logoTrackRight__JMnKf { animation: HomeExperience_logoRight__ja4m8 32s linear infinite; }
+.HomeExperience_logoViewport__RZexC:hover .HomeExperience_logoTrack__k0Iqu { animation-play-state: paused; }
+
+.HomeExperience_logoTile__sp_xV {
+  width: 190px;
+  height: 64px;
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  padding: 0 16px;
+  border: 1px solid #e1ecf6;
+  border-radius: 12px;
+  color: #1d4a7a;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(17,69,116,.05);
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: -.02em;
+  text-align: center;
+}
+
+.HomeExperience_presenceSection__OV1gB {
+  background: linear-gradient(180deg, #fff 0%, #f6fbff 100%);
+}
+.HomeExperience_presenceGrid__4N3eA {
+  display: grid;
+  grid-template-columns: .72fr 1.28fr;
+  gap: 70px;
+  align-items: center;
+}
+
+.HomeExperience_presenceCopy__EdPZw h2 { max-width: 470px; }
+
+.HomeExperience_presenceStats__vJHEG {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.HomeExperience_presenceStats__vJHEG > div {
+  min-height: 80px;
+  padding: 15px 10px;
+  border: 1px solid #deebf5;
+  border-radius: 12px;
+  background: rgba(255,255,255,.8);
+  text-align: center;
+}
+.HomeExperience_presenceStats__vJHEG strong { display:block; font-size: 22px; color: #0a4e98; }
+.HomeExperience_presenceStats__vJHEG span { display:block; margin-top: 5px; font-size: 9.5px; line-height:1.25; color:#7a8a9d; }
+
+.HomeExperience_mapWrap__boBD1 {
+  position: relative;
+  min-height: 310px;
+}
+.HomeExperience_worldMap__hkQYU {
+  width: 100%;
+  height: 310px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  opacity: .84;
+}
+
+.HomeExperience_mapPin__rgeMo {
+  position: absolute;
+  z-index: 3;
+  width: 19px;
+  height: 19px;
+  border: 0;
+  border-radius: 50%;
+  padding: 0;
+  background: rgba(7,136,245,.16);
+  cursor: pointer;
+  transform: translate(-50%,-50%);
+}
+.HomeExperience_mapPin__rgeMo > span {
+  position:absolute;
+  inset:5px;
+  border-radius:50%;
+  background:#0788f5;
+  box-shadow:0 0 0 5px rgba(7,136,245,.12);
+}
+.HomeExperience_mapPin__rgeMo::after {
+  content:'';
+  position:absolute;
+  inset:0;
+  border-radius:50%;
+  border:1px solid rgba(7,136,245,.45);
+  animation: HomeExperience_pinPulse__Abuzl 2.3s ease-out infinite;
+}
+.HomeExperience_mapPinActive__PFd7w > span { background:#004f9d; }
+
+.HomeExperience_mapPopup__YPe_B {
+  position:absolute;
+  right: 5%;
+  top: 42%;
+  width: min(330px, 44%);
+  min-height: 86px;
+  padding: 11px;
+  display:flex;
+  gap:12px;
+  align-items:center;
+  border:1px solid #dce9f5;
+  border-radius:14px;
+  background:rgba(255,255,255,.96);
+  box-shadow:0 18px 45px rgba(18,74,124,.14);
+  backdrop-filter:blur(10px);
+}
+.HomeExperience_popupThumb__WXg5g {
+  width:80px;
+  height:62px;
+  flex:0 0 auto;
+  border-radius:10px;
+  background-size:cover;
+  background-position:center;
+}
+.HomeExperience_mapPopup__YPe_B strong { display:block; font-size:13px; color:#0b396e; }
+.HomeExperience_mapPopup__YPe_B span { display:block; margin-top:5px; color:#77889b; font-size:10px; line-height:1.35; }
+
+.HomeExperience_ctaCard__XTmct {
+  min-height: 145px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 19px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:30px;
+  padding: 34px 44px;
+  isolation:isolate;
+  border:1px solid #cfe4f5;
+  background:#eaf6ff;
+}
+.HomeExperience_ctaBackdrop__bq13j {
+  position:absolute;
+  inset:0;
+  z-index:-2;
+  background:
+    linear-gradient(90deg, rgba(236,248,255,.98) 0%, rgba(236,248,255,.9) 45%, rgba(234,247,255,.18) 74%),
+    url('/media/home/hero-road.jpg') center 52% / cover no-repeat;
+}
+.HomeExperience_ctaBackdrop__bq13j::after {
+  content:'';
+  position:absolute;
+  inset:0;
+  background:linear-gradient(90deg, transparent, rgba(6,46,87,.12));
+}
+.HomeExperience_ctaCopy__3nIjR h2 { font-size: clamp(25px, 2vw, 34px); }
+.HomeExperience_ctaCopy__3nIjR p { margin:9px 0 0; color:#5f7288; font-size:12px; }
+.HomeExperience_ctaActions__Ziu_r { display:flex; gap:13px; flex-wrap:wrap; justify-content:flex-end; }
+.HomeExperience_darkOutlineButton__LqJfz {
+  color:#0a3d75;
+  border:1px solid #137fd5;
+  background:rgba(255,255,255,.82);
+}
+.HomeExperience_darkOutlineButton__LqJfz svg { width:18px; height:18px; }
+
+@keyframes HomeExperience_heroDrift__22JF8 {
+  from { transform: scale(1.02) translate3d(0,0,0); }
+  to { transform: scale(1.06) translate3d(1%,-.8%,0); }
+}
+@keyframes HomeExperience_vehicleMarquee__IjQ02 {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@keyframes HomeExperience_logoLeft__2asYB {
+  from { transform: translateX(-33.33%); }
+  to { transform: translateX(0); }
+}
+@keyframes HomeExperience_logoRight__ja4m8 {
+  from { transform: translateX(0); }
+  to { transform: translateX(-33.33%); }
+}
+@keyframes HomeExperience_dataDot__e93QR { from { left:0; opacity:0; } 12%{opacity:1;} 88%{opacity:1;} to { left:calc(100% - 8px); opacity:0; } }
+@keyframes HomeExperience_spinRing__wBtH0 { to { transform: rotate(360deg); } }
+@keyframes HomeExperience_pinPulse__Abuzl { from { transform:scale(.55); opacity:.8; } to { transform:scale(1.6); opacity:0; } }
+
+@media (max-width: 1180px) {
+  .HomeExperience_heroCopy___Q_6z h1 { white-space: normal; font-size: clamp(44px, 5.8vw, 66px); max-width: 680px; }
+  .HomeExperience_heroTruck__jKNXQ { width: 56vw; right:-9vw; }
+  .HomeExperience_heroNote__zXhWq { display:none; }
+  .HomeExperience_productGrid__T1bry { grid-template-columns: repeat(4, 1fr); }
+  .HomeExperience_productGrid__T1bry > div:nth-child(n+5) { margin-top: 8px; }
+  .HomeExperience_split__igJx7 { grid-template-columns: .92fr 1.08fr; gap: 34px; }
+  .HomeExperience_handNote__6xtva { display:none; }
+  .HomeExperience_ecosystemFlow__Z7Nkg { grid-template-columns: 1fr .18fr 1fr .18fr 1fr; }
+  .HomeExperience_ecosystemFlow__Z7Nkg > :nth-child(6), .HomeExperience_ecosystemFlow__Z7Nkg > :nth-child(7) { display:none; }
+  .HomeExperience_presenceGrid__4N3eA { grid-template-columns: .84fr 1.16fr; gap:42px; }
+  .HomeExperience_softwareGrid__hgGqE { grid-template-columns: 1fr 1.1fr; }
+  .HomeExperience_softwareList__LYyFe { grid-column: 1 / -1; grid-template-columns: repeat(5,1fr); gap:10px; }
+}
+
+@media (max-width: 900px) {
+  .HomeExperience_shell__flw_A, .HomeExperience_heroInner__BNq0r { width:min(100% - 40px, 1380px); }
+  .HomeExperience_hero__nc9Vx { min-height: 590px; }
+  .HomeExperience_heroInner__BNq0r { min-height:590px; align-items:flex-start; padding-top:92px; }
+  .HomeExperience_heroCopy___Q_6z { width:88%; }
+  .HomeExperience_heroTruck__jKNXQ { width:78vw; max-height:330px; right:-20vw; bottom:-22px; opacity:.9; }
+  .HomeExperience_heroScenery__vI79U { background-position: 52% center; }
+  .HomeExperience_trustBar__xU2my { width:calc(100% - 40px); grid-template-columns:repeat(2,1fr); padding:8px 0; }
+  .HomeExperience_trustItem__mKdxC { min-height:76px; padding:0 20px; }
+  .HomeExperience_trustItem__mKdxC i { display:none; }
+  .HomeExperience_section__55NgZ { padding:76px 0 82px; }
+  .HomeExperience_sectionHeading__Dj4PZ { align-items:flex-start; }
+  .HomeExperience_split__igJx7, .HomeExperience_presenceGrid__4N3eA, .HomeExperience_softwareGrid__hgGqE { grid-template-columns:1fr; }
+  .HomeExperience_visualSide___1HHV { min-height:340px; }
+  .HomeExperience_featureGrid__Sw2GB { max-width:620px; }
+  .HomeExperience_whyGrid__1_8KU { grid-template-columns:repeat(2,1fr); }
+  .HomeExperience_softwareList__LYyFe { grid-template-columns:repeat(2,1fr); }
+  .HomeExperience_ecosystemFlow__Z7Nkg { grid-template-columns:1fr; gap:16px; }
+  .HomeExperience_ecosystemFlow__Z7Nkg .HomeExperience_flowLine__ChUQC { height:34px; width:2px; margin:0 auto; }
+  .HomeExperience_flowLine__ChUQC span { top:0; left:-3px; animation:none; }
+  .HomeExperience_platformHub__oe_6h { min-height:170px; }
+  .HomeExperience_ecosystemFlow__Z7Nkg > :nth-child(6), .HomeExperience_ecosystemFlow__Z7Nkg > :nth-child(7) { display:block; }
+  .HomeExperience_productGrid__T1bry { grid-template-columns:repeat(2,1fr); }
+  .HomeExperience_mapWrap__boBD1 { min-height:270px; }
+  .HomeExperience_worldMap__hkQYU { height:270px; }
+  .HomeExperience_ctaCard__XTmct { align-items:flex-start; flex-direction:column; }
+  .HomeExperience_ctaActions__Ziu_r { justify-content:flex-start; }
+}
+
+@media (max-width: 620px) {
+  .HomeExperience_shell__flw_A, .HomeExperience_heroInner__BNq0r { width:min(100% - 28px, 1380px); }
+  .HomeExperience_hero__nc9Vx { min-height: 570px; }
+  .HomeExperience_heroInner__BNq0r { min-height:570px; padding-top:72px; }
+  .HomeExperience_heroCopy___Q_6z { width:100%; }
+  .HomeExperience_heroCopy___Q_6z h1 { font-size: 43px; line-height:1.02; letter-spacing:-.05em; }
+  .HomeExperience_heroEyebrow__WmUAV, .HomeExperience_eyebrow__9Gphd { font-size:10px; letter-spacing:.17em; }
+  .HomeExperience_heroActions__M3HfP { margin-top:26px; gap:10px; }
+  .HomeExperience_primaryButton__Qdlx_, .HomeExperience_secondaryButton__iQJ8o, .HomeExperience_darkOutlineButton__LqJfz { min-height:46px; padding:0 18px; font-size:12px; }
+  .HomeExperience_heroTruck__jKNXQ { width:98vw; right:-37vw; bottom:-28px; max-height:290px; }
+  .HomeExperience_trustWrap__okzgp { margin-top:-34px; }
+  .HomeExperience_trustBar__xU2my { width:calc(100% - 28px); min-height:0; border-radius:18px; }
+  .HomeExperience_trustItem__mKdxC { grid-template-columns:36px 1fr; gap:10px; padding:0 13px; }
+  .HomeExperience_trustIcon__2sbTV { width:34px; height:34px; border-radius:10px; }
+  .HomeExperience_trustIcon__2sbTV svg { width:20px; height:20px; }
+  .HomeExperience_trustItem__mKdxC strong { font-size:18px; }
+  .HomeExperience_trustItem__mKdxC span { font-size:9px; }
+  .HomeExperience_section__55NgZ, .HomeExperience_compactSection__UnJfm, .HomeExperience_clientsSection__wtKnO, .HomeExperience_presenceSection__OV1gB { padding:64px 0; }
+  .HomeExperience_sectionHeading__Dj4PZ { display:block; }
+  .HomeExperience_textLink__X0cYe { display:inline-flex; margin-top:14px; }
+  .HomeExperience_sectionHeading__Dj4PZ h2, .HomeExperience_splitCopy__pBNRA h2, .HomeExperience_compactSection__UnJfm h2, .HomeExperience_softwareCopy__uhOQh h2, .HomeExperience_ecosystemSection__CgYMs h2, .HomeExperience_clientsSection__wtKnO h2, .HomeExperience_presenceCopy__EdPZw h2 { font-size:29px; }
+  .HomeExperience_sectionSub__kScD_ { font-size:12px; }
+  .HomeExperience_vehicleViewport__XDKE1 { margin-top:30px; }
+  .HomeExperience_vehicleItem__UaFGQ { width:150px; }
+  .HomeExperience_vehicleItem__UaFGQ img { height:124px; }
+  .HomeExperience_vehicleTrack__PD0M9 { gap:25px; animation-duration:26s; }
+  .HomeExperience_productGrid__T1bry { gap:10px; margin-top:28px; }
+  .HomeExperience_productCard__0Dga_ { min-height:218px; padding:14px; }
+  .HomeExperience_productImage__VJ4to { height:90px; }
+  .HomeExperience_featureGrid__Sw2GB { grid-template-columns:1fr; gap:10px; }
+  .HomeExperience_visualSide___1HHV { min-height:290px; }
+  .HomeExperience_deviceScene__DWwNy { min-height:280px; }
+  .HomeExperience_laptop___bB1_ { width:84%; }
+  .HomeExperience_phone__21I5V { width:72px; height:145px; right:2%; }
+  .HomeExperience_whyGrid__1_8KU { grid-template-columns:1fr; }
+  .HomeExperience_softwareList__LYyFe { grid-template-columns:1fr; }
+  .HomeExperience_ecosystemSection__CgYMs { padding:62px 0; }
+  .HomeExperience_flowCard__RBiW6 { min-height:130px; }
+  .HomeExperience_logoTile__sp_xV { width:150px; height:56px; font-size:12px; }
+  .HomeExperience_presenceStats__vJHEG { grid-template-columns:repeat(2,1fr); }
+  .HomeExperience_mapPopup__YPe_B { width:64%; right:2%; top:45%; }
+  .HomeExperience_popupThumb__WXg5g { width:62px; height:52px; }
+  .HomeExperience_ctaSection__ACGOB { padding:12px 0 54px; }
+  .HomeExperience_ctaCard__XTmct { padding:26px 22px; min-height:180px; }
+  .HomeExperience_ctaBackdrop__bq13j { background-position:center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .HomeExperience_heroScenery__vI79U,
+  .HomeExperience_vehicleTrack__PD0M9,
+  .HomeExperience_logoTrackLeft__umiZS,
+  .HomeExperience_logoTrackRight__JMnKf,
+  .HomeExperience_flowLine__ChUQC span,
+  .HomeExperience_hubRing__kI0Xq::before,
+  .HomeExperience_hubRing__kI0Xq::after,
+  .HomeExperience_mapPin__rgeMo::after {
+    animation: none !important;
+  }
+}
+

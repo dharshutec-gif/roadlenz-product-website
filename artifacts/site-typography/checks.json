@@ -1,0 +1,621 @@
+{
+  "results": [
+    {
+      "path": "/",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/products",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/products",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/solutions",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/solutions",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/industries",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/industries",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/technology",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/technology",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/resources",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/resources",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/about",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/about",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/contact",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/contact",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/book-demo",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/book-demo",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/request-quote",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/request-quote",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/cart",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/cart",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/customer-login",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/customer-login",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/admin/login",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/admin/login",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/privacy",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/privacy",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/terms",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/terms",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/global-presence",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/global-presence",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/search",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/search",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/technology/gps-tracking",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/technology/gps-tracking",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/technology/live-video",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/technology/live-video",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/technology/mobile-access",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/technology/mobile-access",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/industries/school-transport",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/industries/school-transport",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/industries/trucking-logistics",
+      "width": 1366,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "28.686px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    },
+    {
+      "path": "/industries/trucking-logistics",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headingSizes": [
+        "26px"
+      ],
+      "headingFonts": [
+        "Georgia, \"Times New Roman\", serif"
+      ],
+      "panel": false,
+      "failed": false
+    }
+  ],
+  "errors": []
+}

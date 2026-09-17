@@ -1,0 +1,3 @@
+"use client";
+import { motion,useReducedMotion } from "framer-motion";
+export function SchoolCta(){const r=useReducedMotion();return <section id="contact" className="final-cta"><motion.div className="shell cta-inner" initial={{opacity:0,y:r?0:14}} whileInView={{opacity:1,y:0}} viewport={{once:true}}><div className="school-mark" aria-hidden>⌂</div><div><h2>Ready to make every school ride safer and smarter?</h2><p>Talk to our team and find the right solution for your school transport operation.</p></div><div className="button-row"><a className="button secondary" href="#contact">Talk to an Expert</a><a id="quote" className="button primary" href="#quote">Request Quote</a></div></motion.div></section>}

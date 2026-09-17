@@ -1,0 +1,13 @@
+import { NextRequest } from "next/server";
+import { jsonErr, jsonOk, requireRole } from "@/lib/api";
+import { mutateDb, readDb } from "@/lib/db";
+import { adminStore } from "@/lib/admin-store";
+import { adjustInventory, CatalogueError, deleteCatalogueRecord, mediaReferences, productImages, saveCategory, saveMedia, saveProduct } from "@/lib/admin-catalogue";
+export const runtime = "nodejs";
+type Context = {params:Promise<{path:string[]}>};
+async function handle(req:NextRequest,ctx:Context){const auth=requireRole(req,"admin");if(!auth.ok)return auth.res;const [kind,id,action]= (await ctx.params).path;try{if(!["products","categories","inventory","media"].includes(kind))throw new CatalogueError("Module not found.",404);if(req.method==="GET"){const db=readDb();if(kind==="products"){if(id){const p=db.products.find(x=>x.id===id);if(!p)throw new CatalogueError("Product not found.",404);return jsonOk({...p,images:productImages(p)});}return jsonOk({products:db.products,categories:db.productCategories});}if(kind==="categories")return jsonOk({categories:db.productCategories,products:db.products});if(kind==="inventory")return jsonOk({products:db.products,history:adminStore(db).inventoryHistory});return jsonOk({media:adminStore(db).media.map(m=>({...m,references:mediaReferences(db,m.url)}))});}
+ if(req.method==="DELETE"){if(!id)throw new CatalogueError("Record ID is required.");return jsonOk(mutateDb(db=>deleteCatalogueRecord(db,kind,id,auth.session)));}
+ const input:unknown=await req.json().catch(()=>null);if(!input||typeof input!=="object"||Array.isArray(input))throw new CatalogueError("A JSON object is required.");const data=input as Record<string,unknown>;
+ const result=mutateDb(db=>{if(kind==="products"){if(action==="duplicate"&&req.method==="POST"){const p=db.products.find(x=>x.id===id);if(!p)throw new CatalogueError("Product not found.",404);let slug=`${p.slug}-copy`;let n=2;while(db.products.some(x=>x.slug===slug))slug=`${p.slug}-copy-${n++}`;const copy=saveProduct(db,{...p,name:`${p.name} (copy)`,slug,sku:"",published:false,stockQuantity:0,images:productImages(p)},auth.session); Object.assign(copy,{...p,...copy}); return copy;}return saveProduct(db,data,auth.session,id);}if(kind==="categories")return saveCategory(db,data,auth.session,id);if(kind==="inventory")return adjustInventory(db,data,auth.session);return saveMedia(db,data,auth.session,id);});return jsonOk(result,{status:req.method==="POST"?201:200});
+ }catch(error){return jsonErr(error instanceof CatalogueError?error.status:500,error instanceof CatalogueError?error.message:"Unable to update the catalogue. Please try again.");}}
+export const GET=handle;export const POST=handle;export const PATCH=handle;export const DELETE=handle;

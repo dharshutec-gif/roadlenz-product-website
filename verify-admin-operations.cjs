@@ -1,0 +1,35 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs'),path=require('node:path'),os=require('node:os'),ts=require('typescript');
+const root=process.cwd(),fixture=fs.mkdtempSync(path.join(os.tmpdir(),'roadlenz-operations-'));
+const modules=new Map();
+function load(file){file=path.resolve(root,file);if(!path.extname(file))file+='.ts';if(modules.has(file))return modules.get(file).exports;
+ const mod={exports:{}};modules.set(file,mod);const localRequire=id=>id==='server-only'?{}:id==='next/headers'?{cookies:async()=>({get:()=>undefined})}:id.startsWith('@/')?load('src/'+id.slice(2)):id.startsWith('.')?load(path.resolve(path.dirname(file),id)):require(id);
+ const js=ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,esModuleInterop:true,target:ts.ScriptTarget.ES2020}}).outputText;
+ new Function('require','module','exports',js)(localRequire,mod,mod.exports);return mod.exports;
+}
+(async()=>{
+ const seed=JSON.parse(fs.readFileSync('data/db.json','utf8'));seed.users=[];seed.sessions=[];seed.customers={};seed.orders=[];seed.invoices=[];seed.quotes=[];seed.demos=[];seed.messages=[];delete seed.admin;
+ fs.mkdirSync(path.join(fixture,'data'));fs.writeFileSync(path.join(fixture,'data/db.json'),JSON.stringify(seed));process.chdir(fixture);
+ const operations=load('src/lib/admin-operations.ts'),db=load('src/lib/db.ts'),auth=load('src/lib/auth.ts');
+ const actor={userId:'admin_test',name:'Operations Tester'};
+ const totals=operations.quotationTotals([{productSlug:'a',description:'Device',quantity:3,unitPrice:199.99,discount:10,gstRate:18}],25,0,0);
+ assert.equal(totals.subtotal,599.97);assert.equal(totals.gst,106.19);assert.equal(totals.total,721.16);
+ assert.throws(()=>operations.quotationTotals([{quantity:-1,unitPrice:10,discount:0,gstRate:18}],0,0,0));
+ assert.throws(()=>operations.quotationTotals([{quantity:1,unitPrice:10,discount:11,gstRate:18}],0,0,0));
+ const customer=db.mutateDb(store=>operations.performAdminOperation(store,actor,{action:'customer.create',name:'Customer',email:'customer@example.test',company:'Fleet',phone:'1234567890',temporaryPassword:'secure-test-123'}));
+ assert.equal(customer.active,true);assert.ok(auth.verifyPassword('secure-test-123',db.readDb().users[0].passwordHash));
+ const quote=db.mutateDb(store=>operations.performAdminOperation(store,actor,{action:'quotation.save',quotation:{customerUserId:customer.id,items:[{productSlug:'a',description:'Device',quantity:3,unitPrice:199.99,discount:10,gstRate:18}],freight:25,total:1,status:'draft'}}));
+ assert.equal(quote.total,721.16);assert.equal(db.readDb().customers[customer.id].quotes.length,0,'Draft quotations stay private');
+ assert.throws(()=>db.mutateDb(store=>operations.performAdminOperation(store,actor,{action:'quotation.convert',id:quote.id})));
+ db.mutateDb(store=>operations.performAdminOperation(store,actor,{action:'quotation.status',id:quote.id,status:'accepted'}));
+ assert.equal(db.readDb().customers[customer.id].quotes[0].amount,'₹721.16');
+ const order=db.mutateDb(store=>operations.performAdminOperation(store,actor,{action:'quotation.convert',id:quote.id}));
+ const repeated=db.mutateDb(store=>operations.performAdminOperation(store,actor,{action:'quotation.convert',id:quote.id}));
+ assert.equal(repeated.id,order.id);assert.equal(db.readDb().orders.length,1);assert.equal(order.total,721.16);
+ assert.ok(db.readDb().admin.activity.length>=4);assert.ok(!JSON.stringify(db.readDb().admin.activity).includes('secure-test-123'));
+ const {NextRequest}=require('next/server');const api=load('src/app/api/admin/operations/route.ts');
+ assert.equal((await api.POST(new NextRequest('http://localhost/api/admin/operations',{method:'POST',body:JSON.stringify({action:'customer.create'})}))).status,401);
+ const token=auth.createSession(customer.id,'customer');
+ assert.equal((await api.POST(new NextRequest('http://localhost/api/admin/operations',{method:'POST',headers:{cookie:'rl_session='+token},body:JSON.stringify({action:'customer.create'})}))).status,403);
+ console.log('PASS operations: precise quotation totals, validation, customers, private drafts, customer visibility, idempotent order conversion, safe audit, API authorization');
+})().catch(error=>{console.error(error);process.exitCode=1}).finally(()=>{process.chdir(root);const resolved=path.resolve(fixture);if(path.dirname(resolved)!==path.resolve(os.tmpdir())||!path.basename(resolved).startsWith('roadlenz-operations-'))throw new Error('Unsafe test cleanup path');fs.rmSync(resolved,{recursive:true,force:true});});

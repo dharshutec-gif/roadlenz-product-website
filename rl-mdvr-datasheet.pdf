@@ -1,0 +1,67 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1882 >>
+stream
+BT /F2 20 Tf 56 790 Td (Product Data Sheet) Tj ET
+BT /F1 10 Tf 56 780 Td () Tj ET
+BT /F1 10 Tf 56 766 Td (RoadLenz Intelligent Mobility  |  Powered by Bigfox Engineering Private Limited) Tj ET
+BT /F1 10 Tf 56 750 Td () Tj ET
+BT /F2 13 Tf 56 726 Td (RL-MDVR 8CH) Tj ET
+BT /F1 10 Tf 56 708 Td (Multi-channel vehicle DVR with black-box event capture, built for long-haul fleets that need evidence-grade video.) Tj ET
+BT /F1 10 Tf 56 640 Td () Tj ET
+BT /F2 13 Tf 56 620 Td (Key specifications) Tj ET
+BT /F1 9.5 Tf 64 598 Td (Channels) Tj ET
+BT /F1 9.5 Tf 234 598 Td (8 analogue \(AHD 1080p\) + 2 IP channels) Tj ET
+BT /F1 9.5 Tf 64 582 Td (Codec) Tj ET
+BT /F1 9.5 Tf 234 582 Td (H.265, 8 Mbps total) Tj ET
+BT /F1 9.5 Tf 64 566 Td (Connectivity) Tj ET
+BT /F1 9.5 Tf 234 566 Td (4G/LTE, Wi-Fi, Ethernet \(optional\)) Tj ET
+BT /F1 9.5 Tf 64 550 Td (Positioning) Tj ET
+BT /F1 9.5 Tf 234 550 Td (GPS/BeiDou/GLONASS, 1 Hz, ±2.5 m) Tj ET
+BT /F1 9.5 Tf 64 534 Td (Storage) Tj ET
+BT /F1 9.5 Tf 234 534 Td (1 TB SSD, 8 TB expandable \(optional\)) Tj ET
+BT /F1 9.5 Tf 64 518 Td (Black box) Tj ET
+BT /F1 9.5 Tf 234 518 Td (Vibration + impact triggered event lock) Tj ET
+BT /F1 9.5 Tf 64 502 Td (Power) Tj ET
+BT /F1 9.5 Tf 234 502 Td (9–36 V DC, supercapacitor for clean shutdown) Tj ET
+BT /F1 9.5 Tf 64 486 Td (Operating temp) Tj ET
+BT /F1 9.5 Tf 234 486 Td (-35°C to +75°C) Tj ET
+BT /F1 9.5 Tf 64 470 Td (Enclosure) Tj ET
+BT /F1 9.5 Tf 234 470 Td (Die-cast aluminium, IP66) Tj ET
+BT /F1 9.5 Tf 64 454 Td (Warranty) Tj ET
+BT /F1 9.5 Tf 234 454 Td (24 months) Tj ET
+BT /F1 10 Tf 56 300 Td () Tj ET
+BT /F1 10 Tf 56 300 Td (This is demo sample content for the RoadLenz website build. Specifications are) Tj ET
+BT /F1 10 Tf 56 286 Td (illustrative and must be replaced with verified data through the CMS before launch.) Tj ET
+BT /F1 10 Tf 56 250 Td (support@roadlenz.in  |  www.roadlenz.in) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000000402 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2335
+%%EOF
